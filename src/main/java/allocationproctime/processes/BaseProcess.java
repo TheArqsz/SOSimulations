@@ -1,4 +1,4 @@
-package processes;
+package allocationproctime.processes;
 
 /**
  * @author amaruszc

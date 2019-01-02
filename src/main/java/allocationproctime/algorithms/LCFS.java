@@ -1,4 +1,4 @@
-package algorithms;
+package allocationproctime.algorithms;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 
-import processes.Process;
+import allocationproctime.processes.Process;
 import propertieshandler.PropertiesHandler;
 
 /**
@@ -19,6 +19,7 @@ import propertieshandler.PropertiesHandler;
  */
 public class LCFS {
 
+  String pathToSourceFile;
   int amnt = 0;
 
   List<Process> waitingQueue;
@@ -29,8 +30,9 @@ public class LCFS {
    * The constructor.
    *
    */
-  public LCFS() {
+  public LCFS(String pathToSourceFile) {
 
+    this.pathToSourceFile=pathToSourceFile;
     this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
     this.waitingQueue = new ArrayList<Process>();
     this.readyQueue = new ArrayList<Process>();
@@ -40,7 +42,7 @@ public class LCFS {
 
   /**
    * <p>
-   * Begin schedulding processes
+   * Begin schedulding algorithms.allocationproctime.processes
    * </p>
    *
    */
@@ -53,14 +55,14 @@ public class LCFS {
 
   /**
    * <p>
-   * Create processes using data from file "processes.csv" and put them to waiting queue
+   * Create algorithms.allocationproctime.processes using data from file "algorithms.allocationproctime.processes.csv" and put them to waiting queue
    * </p>
    *
    */
   private void createProcesses() {
 
     try {
-      Reader reader = Files.newBufferedReader(Paths.get(PropertiesHandler.getProp("sim.pathToProcessesData")));
+      Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
       CSVReader csvReader = new CSVReader(reader);
       String[] nextValues;
       while ((nextValues = csvReader.readNext()) != null) {
@@ -84,7 +86,7 @@ public class LCFS {
 
     while (!allReady) {
       waitingTime += this.waitingQueue.get(i).getBurstTime();
-      for (int j = i + 1; j < this.amnt; j++) {
+      for (int j = i - 1; j >= 0; j--) {
         this.waitingQueue.get(j).setAwaitingTime(waitingTime);
       }
       this.readyQueue.add(this.waitingQueue.get(i));
@@ -101,12 +103,12 @@ public class LCFS {
    */
   private void createReport() {
 
-    int avgAwaitTime = 0;
+    float avgAwaitTime = 0;
     for (int i = 0; i < this.amnt; i++) {
       avgAwaitTime += this.readyQueue.get(i).getAwaitingTime();
     }
     avgAwaitTime = avgAwaitTime / this.amnt;
-    System.out.println("LCFS: Average await time for " + this.amnt + " processes is equal to: " + avgAwaitTime + " [time unit]");
+    System.out.println("LCFS: Average await time for " + this.amnt + " algorithms.allocationproctime.processes is equal to: " + avgAwaitTime + " [time unit]");
   }
 
 }

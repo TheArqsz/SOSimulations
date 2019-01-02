@@ -1,12 +1,12 @@
-package processes;
+package allocationproctime.processes;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
 
 import java.util.Random;
 
-public class BaseProcessTest {
+import static org.junit.Assert.*;
 
+public class BaseProcessTest {
     @Test
     public void getId() {
         Process p = new Process();

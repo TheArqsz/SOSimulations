@@ -1,4 +1,4 @@
-package datahelper;
+package allocationproctime.datahelper;
 
 import org.junit.Test;
 import propertieshandler.PropertiesHandler;
@@ -11,16 +11,17 @@ import java.nio.file.Paths;
 import static org.junit.Assert.*;
 
 public class GenerateDataTest {
-
     @Test
     public void generateFile() {
         boolean doesFileExist = true;
+        String path = null;
         try{
-            Reader f = Files.newBufferedReader(Paths.get(PropertiesHandler.getProp("sim.pathToProcessesData")));
+            path = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
+            Reader f = Files.newBufferedReader(Paths.get(path));
             f.close();
         }catch(IOException e){
             doesFileExist=false;
         }
-        assertTrue("File \"" + PropertiesHandler.getProp("sim.pathToProcessesData") + "\" does not exist.", doesFileExist);
+        assertTrue("File \"" + path + "\" does not exist.", doesFileExist);
     }
 }

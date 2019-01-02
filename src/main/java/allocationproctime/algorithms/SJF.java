@@ -1,4 +1,4 @@
-package algorithms;
+package allocationproctime.algorithms;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -10,7 +10,7 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 
-import processes.Process;
+import allocationproctime.processes.Process;
 import propertieshandler.PropertiesHandler;
 
 /**
@@ -21,6 +21,7 @@ import propertieshandler.PropertiesHandler;
  */
 public class SJF {
 
+  String pathToSourceFile;
   private int amnt = 0;
 
   private List<Process> waitingQueue;
@@ -31,8 +32,8 @@ public class SJF {
    * The constructor.
    *
    */
-  public SJF() {
-
+  public SJF(String pathToSourceFile) {
+    this.pathToSourceFile=pathToSourceFile;
     this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
     this.waitingQueue = new ArrayList<Process>();
     this.readyQueue = new Process[this.amnt];
@@ -42,7 +43,7 @@ public class SJF {
 
   /**
    * <p>
-   * Begin schedulding processes
+   * Begin schedulding algorithms.allocationproctime.processes
    * </p>
    *
    */
@@ -55,14 +56,14 @@ public class SJF {
 
   /**
    * <p>
-   * Create processes using data from file "processes.csv" and put them to waiting queue
+   * Create algorithms.allocationproctime.processes using data from file "algorithms.allocationproctime.processes.csv" and put them to waiting queue
    * </p>
    *
    */
   private void createProcesses() {
 
     try {
-      Reader reader = Files.newBufferedReader(Paths.get(PropertiesHandler.getProp("sim.pathToProcessesData")));
+      Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
       CSVReader csvReader = new CSVReader(reader);
       String[] nextValues;
       while ((nextValues = csvReader.readNext()) != null) {
@@ -105,13 +106,13 @@ public class SJF {
    */
   private void createReport() {
 
-    int avgAwaitTime = 0;
+    float avgAwaitTime = 0;
     for (int i = 0; i < this.amnt; i++) {
       avgAwaitTime += this.readyQueue[i].getAwaitingTime();
     }
     avgAwaitTime = avgAwaitTime / this.amnt;
     System.out.println(
-        "SJF: Average await time for " + this.amnt + " processes is equal to: " + avgAwaitTime + " [time unit]");
+        "SJF: Average await time for " + this.amnt + " algorithms.allocationproctime.processes is equal to: " + avgAwaitTime + " [time unit]");
   }
 
 }

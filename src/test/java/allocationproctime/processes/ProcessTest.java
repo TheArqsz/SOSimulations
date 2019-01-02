@@ -1,11 +1,10 @@
-package processes;
+package allocationproctime.processes;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class ProcessTest {
-
     @Test
     public void defaultConstructorTest(){
         Process p = new Process();
@@ -32,5 +31,4 @@ public class ProcessTest {
         assertEquals(13, p.burstTime);
 
     }
-
 }
