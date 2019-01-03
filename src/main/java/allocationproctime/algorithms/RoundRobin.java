@@ -10,14 +10,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
-public class RoundRobin {
-    String pathToSourceFile;
-    private int amnt;
+public class RoundRobin extends BaseAllocationAlgorithm{
+
     private int timeQuantum;
-    private List<Process> waitingQueue;
-
-    private List<Process> readyQueue;
 
     private Boolean[] isReady;
 
@@ -47,6 +44,12 @@ public class RoundRobin {
     private void startProcessing() {
 
         createProcesses();
+        executeProcesses();
+
+    }
+
+    @Override
+    protected void executeProcesses() {
         executeProcessesFCFS();
         createReport("Round Robin FCFS");
         executeProcessesLCFS();
@@ -54,28 +57,8 @@ public class RoundRobin {
     }
 
     /**
-     * <p>
-     * Create algorithms.allocationproctime.processes using data from file "algorithms.allocationproctime.processes.csv" and put them to waiting queue
-     * </p>
      *
-     */
-    private void createProcesses() {
-
-        try {
-            Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
-            CSVReader csvReader = new CSVReader(reader);
-            String[] nextValues;
-            while ((nextValues = csvReader.readNext()) != null) {
-
-                this.waitingQueue.add(new Process(Integer.parseInt(nextValues[0]), Integer.parseInt(nextValues[1])));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
-
-    /**
+     * Method that simulates the execution of processes in processor
      *
      */
     private void executeProcessesFCFS() {
@@ -88,6 +71,7 @@ public class RoundRobin {
             while(this.waitingQueue.get(i).getBurstTime()-proccessingTime<0){
                 proccessingTime-=1;
             }
+
             for (int j = 0; j < this.amnt; j++) {
                 if(j!=i && !isReady[j]){
                     this.waitingQueue.get(j).setAwaitingTime(this.waitingQueue.get(j).getAwaitingTime() + proccessingTime);
@@ -115,6 +99,8 @@ public class RoundRobin {
 
     /**
      *
+     * Method that simulates the execution of processes in processor
+     *
      */
     private void executeProcessesLCFS() {
 
@@ -126,6 +112,7 @@ public class RoundRobin {
             while(this.waitingQueue.get(i).getBurstTime()-proccessingTime<0){
                 proccessingTime-=1;
             }
+
             for (int j = amnt-1; j >= 0; j--) {
                 if(j!=i && !isReady[j]){
                     this.waitingQueue.get(j).setAwaitingTime(this.waitingQueue.get(j).getAwaitingTime() + proccessingTime);
@@ -149,22 +136,5 @@ public class RoundRobin {
             }
         }
 
-    }
-
-    /**
-     *
-     */
-    private void createReport(String name) {
-
-        float avgAwaitTime = 0;
-        for (int i = 0; i < this.amnt; i++) {
-            avgAwaitTime += this.readyQueue.get(i).getAwaitingTime();
-        }
-        avgAwaitTime = avgAwaitTime / this.amnt;
-        System.out.println(name+": Average await time for " + this.amnt + " algorithms.allocationproctime.processes is equal to: " + avgAwaitTime + " [time unit]");
-        this.readyQueue = new ArrayList<Process>();
-        for(int i = 0; i<amnt; i++){
-            isReady[i]=false;
-        }
     }
 }

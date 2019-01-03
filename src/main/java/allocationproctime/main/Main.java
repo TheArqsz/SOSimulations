@@ -35,7 +35,7 @@ public class Main {
    */
   private static void startFCFS(String pathToSourceFile) {
 
-    FCFS fcfs = new FCFS(pathToSourceFile);
+    FCFS fcfs = new FCFS(pathToSourceFile, false);
 
   }
 
