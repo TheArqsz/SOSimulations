@@ -7,11 +7,13 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import com.opencsv.CSVReader;
 
 import allocationproctime.processes.Process;
 import propertieshandler.PropertiesHandler;
+
 
 /**
  * This class runs simulation for SJF schedulding algorithm
@@ -19,31 +21,29 @@ import propertieshandler.PropertiesHandler;
  * @author amaruszc
  *
  */
-public class SJF {
+public class SJF extends BaseAllocationAlgorithm{
 
-  String pathToSourceFile;
-  private int amnt = 0;
-
-  private List<Process> waitingQueue;
-
-  private Process[] readyQueue;
+  protected Process[] readyQueue;
 
   /**
    * The constructor.
    *
    */
-  public SJF(String pathToSourceFile) {
-    this.pathToSourceFile=pathToSourceFile;
+  public SJF(String pathToSourceFilepathToSourceFile, boolean... isUnderTest) {
+    boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
+    this.pathToSourceFile=pathToSourceFilepathToSourceFile;
     this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
     this.waitingQueue = new ArrayList<Process>();
     this.readyQueue = new Process[this.amnt];
 
-    startProcessing();
+    if(!isTest) {
+      startProcessing();
+    }
   }
 
   /**
    * <p>
-   * Begin schedulding algorithms.allocationproctime.processes
+   * Begin schedulding processes
    * </p>
    *
    */
@@ -51,37 +51,22 @@ public class SJF {
 
     createProcesses();
     executeProcesses();
-    createReport();
+    createReport("SJF");
   }
 
-  /**
-   * <p>
-   * Create algorithms.allocationproctime.processes using data from file "algorithms.allocationproctime.processes.csv" and put them to waiting queue
-   * </p>
-   *
-   */
-  private void createProcesses() {
+  protected void createProcesses() {
 
-    try {
-      Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
-      CSVReader csvReader = new CSVReader(reader);
-      String[] nextValues;
-      while ((nextValues = csvReader.readNext()) != null) {
-
-        this.waitingQueue.add(new Process(Integer.parseInt(nextValues[0]), Integer.parseInt(nextValues[1])));
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-
+    super.createProcesses();
     this.waitingQueue.sort(Comparator.comparing(Process::getBurstTime));
 
   }
 
   /**
    *
+   * Method that simulates the execution of processes in processor
+   *
    */
-  private void executeProcesses() {
+  protected void executeProcesses() {
 
     boolean allReady = false;
     int i = 0;
@@ -89,9 +74,11 @@ public class SJF {
 
     while (!allReady) {
       waitingTime += this.waitingQueue.get(i).getBurstTime();
+
       for (int j = i + 1; j < this.amnt; j++) {
         this.waitingQueue.get(j).setAwaitingTime(waitingTime);
       }
+      this.waitingQueue.get(i).setProcessingTime(this.waitingQueue.get(i).getAwaitingTime() + this.waitingQueue.get(i).getBurstTime());
       this.readyQueue[this.waitingQueue.get(i).getId()] = this.waitingQueue.get(i);
       i++;
       if (i == this.amnt) {
@@ -101,18 +88,27 @@ public class SJF {
 
   }
 
-  /**
-   *
-   */
-  private void createReport() {
+  protected void createReport(String nameOfAlgorithm, boolean... isUnderTest) {
 
-    float avgAwaitTime = 0;
+    boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
+    this.avgAwaitTime = 0;
     for (int i = 0; i < this.amnt; i++) {
-      avgAwaitTime += this.readyQueue[i].getAwaitingTime();
+      this.avgAwaitTime += this.readyQueue[i].getAwaitingTime();
     }
-    avgAwaitTime = avgAwaitTime / this.amnt;
-    System.out.println(
-        "SJF: Average await time for " + this.amnt + " algorithms.allocationproctime.processes is equal to: " + avgAwaitTime + " [time unit]");
+    this.avgProcessingTime = 0;
+    for (int i = 0; i < this.amnt; i++) {
+      this.avgProcessingTime += this.readyQueue[i].getProcessingTime();
+    }
+    this.avgProcessingTime = this.avgProcessingTime / this.amnt;
+    this.avgAwaitTime = this.avgAwaitTime / this.amnt;
+
+    /*
+          Temporary disabled
+          if(!isTest) {
+            System.out.println(nameOfAlgorithm + ": Average await time for " + this.amnt + " processes is equal to: " + this.avgAwaitTime + " [time unit]");
+            System.out.println(nameOfAlgorithm + ": Average processing time for " + this.amnt + " processes is equal to: " + this.avgProcessingTime + " [time unit]");
+        }
+        */
   }
 
 }
