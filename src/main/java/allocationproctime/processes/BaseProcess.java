@@ -57,7 +57,8 @@ public abstract class BaseProcess {
   }
 
   /**
-   * @param id - value of id to be set for the process
+   * <p>Sets id for the process</p>
+   * @param id value of id to be set for the process
    */
   public void setId(int id) {
 
@@ -65,7 +66,8 @@ public abstract class BaseProcess {
   }
 
   /**
-   * @param awaitingTime - value of awaiting time to be set for the process
+   * <p>Sets awaiting time for the process</p>
+   * @param awaitingTime value of awaiting time to be set for the process
    */
   public void setAwaitingTime(int awaitingTime) {
 
@@ -73,7 +75,8 @@ public abstract class BaseProcess {
   }
 
   /**
-   * @param processingTime - value of processing time to be set for the process
+   * <p>Sets processing time for the process</p>
+   * @param processingTime value of processing time to be set for the process
    */
   public void setProcessingTime(int processingTime) {
 
@@ -81,7 +84,8 @@ public abstract class BaseProcess {
   }
 
   /**
-   * @param arrivalTime - value of arrival time to be set for the process
+   * <p>Sets time of arrival for the process</p>
+   * @param arrivalTime value of arrival time to be set for the process
    */
   public void setArrivalTime(int arrivalTime) {
 
@@ -89,7 +93,8 @@ public abstract class BaseProcess {
   }
 
   /**
-   * @param burstTime - value of burst time to be set for the process
+   * <p>Sets time of burst for the process</p>
+   * @param burstTime value of burst time to be set for the process
    */
   public void setBurstTime(int burstTime) {
 

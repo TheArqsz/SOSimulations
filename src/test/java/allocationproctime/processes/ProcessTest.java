@@ -8,7 +8,7 @@ public class ProcessTest {
     @Test
     public void defaultConstructorTest(){
         Process p = new Process();
-        assertEquals(1, p.id);
+        assertEquals(0, p.id);
         assertEquals(0, p.arrivalTime);
         assertEquals(0, p.awaitingTime);
         assertEquals(1, p.burstTime);

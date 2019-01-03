@@ -10,7 +10,7 @@ public class BaseProcessTest {
     @Test
     public void getId() {
         Process p = new Process();
-        assertEquals(1, (int) p.getId());
+        assertEquals(0, (int) p.getId());
     }
 
     @Test
