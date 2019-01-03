@@ -14,15 +14,16 @@ import java.util.concurrent.TimeUnit;
 
 public class RoundRobin extends BaseAllocationAlgorithm{
 
-    private int timeQuantum;
+    protected int timeQuantum;
 
-    private Boolean[] isReady;
+    protected Boolean[] isReady;
 
     /**
      * The constructor.
      *
      */
-    public RoundRobin(String pathToSourceFile) {
+    public RoundRobin(String pathToSourceFile, boolean... isUnderTest) {
+        boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
         this.pathToSourceFile = pathToSourceFile;
         this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
         this.waitingQueue = new ArrayList<Process>();
@@ -32,7 +33,9 @@ public class RoundRobin extends BaseAllocationAlgorithm{
         for(int i = 0; i<amnt; i++){
             isReady[i]=false;
         }
-        startProcessing();
+        if(!isTest) {
+            startProcessing();
+        }
     }
 
     /**
@@ -61,7 +64,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
      * Method that simulates the execution of processes in processor
      *
      */
-    private void executeProcessesFCFS() {
+    protected void executeProcessesFCFS() {
 
         boolean allReady = false;
         int i = 0;
@@ -77,6 +80,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
                     this.waitingQueue.get(j).setAwaitingTime(this.waitingQueue.get(j).getAwaitingTime() + proccessingTime);
                 }else if(j==i && this.waitingQueue.get(j).getBurstTime()>=0){
                     if(this.waitingQueue.get(j).getBurstTime()==0 && !isReady[j]) {
+                        this.waitingQueue.get(j).setProcessingTime(this.waitingQueue.get(j).getProcessingTime()+this.waitingQueue.get(j).getAwaitingTime());
                         this.readyQueue.add(this.waitingQueue.get(j));
                         isReady[j] = true;
                         continue;
@@ -102,7 +106,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
      * Method that simulates the execution of processes in processor
      *
      */
-    private void executeProcessesLCFS() {
+    protected void executeProcessesLCFS() {
 
         boolean allReady = false;
         int i = amnt-1;
@@ -118,6 +122,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
                     this.waitingQueue.get(j).setAwaitingTime(this.waitingQueue.get(j).getAwaitingTime() + proccessingTime);
                 }else if(j==i && this.waitingQueue.get(j).getBurstTime()>=0){
                     if(this.waitingQueue.get(j).getBurstTime()==0 && !isReady[j]) {
+                        this.waitingQueue.get(j).setProcessingTime(this.waitingQueue.get(j).getProcessingTime()+this.waitingQueue.get(j).getAwaitingTime());
                         this.readyQueue.add(this.waitingQueue.get(j));
                         isReady[j] = true;
                         continue;

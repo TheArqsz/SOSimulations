@@ -2,7 +2,9 @@ package allocationproctime.algorithms;
 
 import allocationproctime.processes.Process;
 import com.opencsv.CSVWriter;
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import propertieshandler.PropertiesHandler;
 
 import java.io.File;
@@ -13,44 +15,69 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.*;
 
-public class FCFSTest {
+public class RoundRobinTest {
+
     int amnt = 0;
     final String pathToSourceFile ="src/test/resources/test.csv";
     @Test
     public void constructorTest(){
-        FCFS fcfs = new FCFS("test", true);
-        assertEquals("test", fcfs.pathToSourceFile);
-        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses")), fcfs.amnt);
-        assertNotEquals(null, fcfs.waitingQueue);
-        assertNotEquals(null, fcfs.readyQueue);
+        RoundRobin rr = new RoundRobin("test", true);
+        assertEquals("test", rr.pathToSourceFile);
+        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses")), rr.amnt);
+        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.timeQuantumRR")), rr.timeQuantum);
+        assertNotEquals(null, rr.waitingQueue);
+        assertNotEquals(null, rr.readyQueue);
+
+        Boolean[] isReady = new Boolean[amnt];
+        isReady=rr.isReady;
+        boolean allCorrect = true;
+        for(Boolean temp: isReady){
+            if(temp){
+                allCorrect=false;
+            }
+        }
+
+        assertTrue("Not all values are correct", allCorrect);
+
     }
     @Test
     public void executeProcessesTest() {
-        FCFS fcfs = null;
+        RoundRobin rr = null;
 
         try {
             String pathToSourceFile ="src/test/resources/test.csv";
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            fcfs = new FCFS(pathToSourceFile, true);
-            fcfs.createProcesses();
-            fcfs.executeProcesses();
+            rr = new RoundRobin(pathToSourceFile, true);
+            rr.createProcesses();
+            rr.executeProcessesFCFS();
             reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        assertTrue("Process execution finish unproperly" ,amnt==fcfs.readyQueue.size());
+        assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
+        try {
+            String pathToSourceFile ="src/test/resources/test.csv";
+            Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
+
+            rr = new RoundRobin(pathToSourceFile, true);
+            rr.createProcesses();
+            rr.executeProcessesLCFS();
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
     }
     @Test
     public void createProcessesTest() {
-        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
-        FCFS fcfs = new FCFS(pathToSourceFile, true);
-        fcfs.createProcesses();
-        assertTrue("Process creation finish unproperly" ,fcfs.amnt==fcfs.waitingQueue.size());
+        String pathToSourceFile = "src/test/resources/test.csv";
+        RoundRobin rr = new RoundRobin(pathToSourceFile, true);
+        rr.createProcesses();
+        assertTrue("Process creation finish unproperly" ,rr.amnt==rr.waitingQueue.size());
     }
 
     @Test
@@ -96,4 +123,5 @@ public class FCFSTest {
         }
         writer.close();
     }
+
 }

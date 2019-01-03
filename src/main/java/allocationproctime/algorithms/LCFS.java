@@ -24,14 +24,17 @@ public class LCFS extends BaseAllocationAlgorithm{
    * The constructor.
    *
    */
-  public LCFS(String pathToSourceFile) {
+  public LCFS(String pathToSourceFile, boolean... isUnderTest) {
+    boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
 
     this.pathToSourceFile=pathToSourceFile;
     this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
     this.waitingQueue = new ArrayList<Process>();
     this.readyQueue = new ArrayList<Process>();
 
-    startProcessing();
+    if(!isTest) {
+      startProcessing();
+    }
   }
 
   /**
@@ -62,6 +65,7 @@ public class LCFS extends BaseAllocationAlgorithm{
       for (int j = i - 1; j >= 0; j--) {
         this.waitingQueue.get(j).setAwaitingTime(waitingTime);
       }
+      this.waitingQueue.get(i).setProcessingTime(this.waitingQueue.get(i).getAwaitingTime() + this.waitingQueue.get(i).getBurstTime());
       this.readyQueue.add(this.waitingQueue.get(i));
       i--;
       if (this.readyQueue.size() == this.amnt) {

@@ -2,7 +2,9 @@ package allocationproctime.algorithms;
 
 import allocationproctime.processes.Process;
 import com.opencsv.CSVWriter;
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import propertieshandler.PropertiesHandler;
 
 import java.io.File;
@@ -13,42 +15,41 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.*;
 
-public class FCFSTest {
+public class LCFSTest {
     int amnt = 0;
     final String pathToSourceFile ="src/test/resources/test.csv";
     @Test
     public void constructorTest(){
-        FCFS fcfs = new FCFS("test", true);
-        assertEquals("test", fcfs.pathToSourceFile);
-        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses")), fcfs.amnt);
-        assertNotEquals(null, fcfs.waitingQueue);
-        assertNotEquals(null, fcfs.readyQueue);
+        LCFS lcfs = new LCFS("test", true);
+        assertEquals("test", lcfs.pathToSourceFile);
+        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses")), lcfs.amnt);
+        assertNotEquals(null, lcfs.waitingQueue);
+        assertNotEquals(null, lcfs.readyQueue);
     }
     @Test
     public void executeProcessesTest() {
-        FCFS fcfs = null;
+        LCFS lcfs = null;
 
         try {
             String pathToSourceFile ="src/test/resources/test.csv";
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            fcfs = new FCFS(pathToSourceFile, true);
-            fcfs.createProcesses();
-            fcfs.executeProcesses();
+            lcfs = new LCFS(pathToSourceFile, true);
+            lcfs.createProcesses();
+            lcfs.executeProcesses();
             reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        assertTrue("Process execution finish unproperly" ,amnt==fcfs.readyQueue.size());
+        assertTrue("Process execution finish unproperly" ,amnt==lcfs.readyQueue.size());
     }
     @Test
     public void createProcessesTest() {
         String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
-        FCFS fcfs = new FCFS(pathToSourceFile, true);
+        LCFS fcfs = new LCFS(pathToSourceFile, true);
         fcfs.createProcesses();
         assertTrue("Process creation finish unproperly" ,fcfs.amnt==fcfs.waitingQueue.size());
     }
@@ -58,27 +59,26 @@ public class FCFSTest {
 
         float avgExpectedAwaitTime = 0;
 
-        FCFS fcfs = null;
+        LCFS lcfs = null;
         try {
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            fcfs = new FCFS(pathToSourceFile, true);
-            fcfs.createProcesses();
-            fcfs.executeProcesses();
+            lcfs = new LCFS(pathToSourceFile, true);
+            lcfs.createProcesses();
+            lcfs.executeProcesses();
             reader.close();
 
-
             List<Process> temp = new ArrayList<>();
-            temp=fcfs.readyQueue;
+            temp=lcfs.readyQueue;
             for (int i = 0; i < amnt; i++) {
                 avgExpectedAwaitTime += temp.get(i).getAwaitingTime();
             }
-            avgExpectedAwaitTime = avgExpectedAwaitTime / fcfs.amnt;
-            fcfs.createReport("testFCFS", true);
+            avgExpectedAwaitTime = avgExpectedAwaitTime / amnt;
+            lcfs.createReport("testFCFS", true);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        assertEquals(avgExpectedAwaitTime, fcfs.avgAwaitTime, 0.00001);
+        assertEquals(avgExpectedAwaitTime, lcfs.avgAwaitTime, 0);
     }
     @After
     public void deleteTempFile() {

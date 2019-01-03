@@ -23,11 +23,11 @@ public class GenerateData {
    */
   public static void generateSourceFile(String filePath) {
     if(Boolean.parseBoolean(PropertiesHandler.getProp("sim.generateData"))){
-      System.out.println("Generating data source file to: \"" +filePath + "\"\n");
+      System.out.println("Generating data source file to: \"" +filePath + "\"");
       int amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
       generateData(amnt, filePath);
     }else{
-      System.out.println("Using existing file located in \"" + filePath +  "\"\n") ;
+      System.out.println("Using existing file located in \"" + filePath +  "\"") ;
       try{
         Reader f = Files.newBufferedReader(Paths.get(filePath));
         f.close();
@@ -50,7 +50,7 @@ public class GenerateData {
       CSVWriter writer = new CSVWriter(new FileWriter(new File(filePath)));
       Random r = new Random();
       for (int i = 0; i < amnt; i++) {
-        String[] data = { Integer.toString(i), Integer.toString(r.nextInt(10)) };
+        String[] data = { Integer.toString(i), Integer.toString(r.nextInt(Integer.parseInt(PropertiesHandler.getProp("sim.rangeOfBurstTime")))) };
         writer.writeNext(data);
       }
       writer.close();

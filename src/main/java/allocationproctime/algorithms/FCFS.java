@@ -20,21 +20,19 @@ import propertieshandler.PropertiesHandler;
  */
 public class FCFS extends BaseAllocationAlgorithm {
 
-
-
     /**
      * The constructor.
      *
      * @param pathToSourceFile
      */
-    public FCFS(String pathToSourceFile, boolean isUnderTest) {
-
+    public FCFS(String pathToSourceFile, boolean... isUnderTest) {
+        boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
         this.pathToSourceFile = pathToSourceFile;
         this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
         this.waitingQueue = new ArrayList<Process>();
         this.readyQueue = new ArrayList<Process>();
 
-        if(!isUnderTest) {
+        if(!isTest) {
             startProcessing();
         }
     }
@@ -67,6 +65,7 @@ public class FCFS extends BaseAllocationAlgorithm {
             for (int j = i + 1; j < this.amnt; j++) {
                 this.waitingQueue.get(j).setAwaitingTime(waitingTime);
             }
+            this.waitingQueue.get(i).setProcessingTime(this.waitingQueue.get(i).getAwaitingTime() + this.waitingQueue.get(i).getBurstTime());
             this.readyQueue.add(this.waitingQueue.get(i));
             i++;
             if (this.readyQueue.size() == this.amnt) {
