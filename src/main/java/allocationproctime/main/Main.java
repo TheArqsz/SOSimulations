@@ -35,11 +35,11 @@ public class Main {
 
       System.out.println("Amount of processes: " + amnt);
       System.out.println("Amount of tries: " + tries);
-      System.out.println("\n\nFCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "FCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "FCFS")/tries);
-      System.out.println("LCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "LCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "LCFS")/tries);
-      System.out.println("SJF: avg await time: " + avgTimes.getAvgAwaitTimeSum( "SJF")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "SJF")/tries);
-      System.out.println("RoundRobin FCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "RoundRobin FCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "RoundRobin FCFS")/tries);
-      System.out.println("RoundRobin LCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "RoundRobin LCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "RoundRobin LCFS")/tries);
+      System.out.println("\n\nFCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "FCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "FCFS")/tries + "[time unit]");
+      System.out.println("LCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "LCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "LCFS")/tries + "[time unit]");
+      System.out.println("SJF: avg await time: " + avgTimes.getAvgAwaitTimeSum( "SJF")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "SJF")/tries + "[time unit]");
+      System.out.println("RoundRobin FCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "RoundRobin FCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "RoundRobin FCFS")/tries + "[time unit]");
+      System.out.println("RoundRobin LCFS: avg await time: " + avgTimes.getAvgAwaitTimeSum( "RoundRobin LCFS")/tries + " avg process. time: " + avgTimes.getAvgProccessingTimeSum( "RoundRobin LCFS")/tries + "[time unit]");
   }
 
   /**
