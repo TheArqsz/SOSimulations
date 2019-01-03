@@ -8,12 +8,12 @@ import java.util.List;
 import java.util.Map;
 
 public class GenerateSumUp {
-    private Map<String, Pair<Float, Float>> algorithmTimesMap = null;
+    private Map<String, Pair<Double, Double>> algorithmTimesMap = null;
     public GenerateSumUp()
     {
 
-        algorithmTimesMap = new HashMap<String, Pair<Float, Float> >();
-        Pair<Float, Float> pair = Pair.of((float) 0, (float)0);
+        algorithmTimesMap = new HashMap<String, Pair<Double, Double> >();
+        Pair<Double, Double> pair = Pair.of((double) 0, (double)0);
         algorithmTimesMap.put("FCFS", pair);
         algorithmTimesMap.put("LCFS", pair);
         algorithmTimesMap.put("SJF", pair);
@@ -21,24 +21,24 @@ public class GenerateSumUp {
         algorithmTimesMap.put("RoundRobin LCFS", pair);
     }
 
-    public float getAvgAwaitTimeSum(String nameOfAlgorithm) {
+    public double getAvgAwaitTimeSum(String nameOfAlgorithm) {
         return algorithmTimesMap.get(nameOfAlgorithm).getLeft();
     }
 
-    public void setAvgAwaitTimeSum(float avgAwaitTime, String nameOfAlgorithm) {
-        float right = algorithmTimesMap.get(nameOfAlgorithm).getRight();
-        Pair<Float, Float> pair = Pair.of(avgAwaitTime, right);
+    public void setAvgAwaitTimeSum(double avgAwaitTime, String nameOfAlgorithm) {
+        double right = algorithmTimesMap.get(nameOfAlgorithm).getRight();
+        Pair<Double, Double> pair = Pair.of(avgAwaitTime, right);
 
         algorithmTimesMap.put(nameOfAlgorithm, pair);
     }
 
-    public float getAvgProccessingTimeSum(String nameOfAlgorithm) {
+    public double getAvgProccessingTimeSum(String nameOfAlgorithm) {
         return algorithmTimesMap.get(nameOfAlgorithm).getRight();
     }
 
-    public void setAvgProccessingTimeSum(float avgProccessingTime, String nameOfAlgorithm) {
-        float left = algorithmTimesMap.get(nameOfAlgorithm).getLeft();
-        Pair<Float, Float> pair = Pair.of(avgProccessingTime, left);
+    public void setAvgProccessingTimeSum(double avgProccessingTime, String nameOfAlgorithm) {
+        double left = algorithmTimesMap.get(nameOfAlgorithm).getLeft();
+        Pair<Double, Double> pair = Pair.of(avgProccessingTime, left);
 
         algorithmTimesMap.put(nameOfAlgorithm, pair);
     }

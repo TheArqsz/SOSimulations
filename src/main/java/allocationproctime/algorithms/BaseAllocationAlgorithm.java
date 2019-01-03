@@ -19,8 +19,8 @@ public abstract class BaseAllocationAlgorithm {
 
     String pathToSourceFile;
     int amnt;
-    float avgAwaitTime;
-    float avgProcessingTime;
+    double avgAwaitTime;
+    double avgProcessingTime;
 
     /**
      *  Abstract method that simulates the execution of processes in processor
@@ -65,20 +65,21 @@ public abstract class BaseAllocationAlgorithm {
             this.avgProcessingTime += this.readyQueue.get(i).getProcessingTime();
         }
         this.avgProcessingTime = this.avgProcessingTime / this.amnt;
-
+        /*
           //Temporary disabled
           if(!isTest) {
             System.out.println(nameOfAlgorithm + ": Average await time for " + this.amnt + " processes is equal to: " + this.avgAwaitTime + " [time unit]");
             System.out.println(nameOfAlgorithm + ": Average processing time for " + this.amnt + " processes is equal to: " + this.avgProcessingTime + " [time unit]");
         }
+        */
 
     }
 
-    public float getAvgAwaitTime(){
+    public double getAvgAwaitTime(){
         return this.avgAwaitTime;
     }
 
-    public float getAvgProcessingTime(){
+    public double getAvgProcessingTime(){
         return this.avgProcessingTime;
     }
 
