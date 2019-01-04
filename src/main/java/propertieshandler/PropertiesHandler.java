@@ -5,10 +5,16 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * @author AMARUSZC
+ * Class that allows to get data from <a href="file:../simulation.properties"><b>simulation.properties</b></a> file
+ * @author Arkadiusz Maruszczak
  *
  */
 public class PropertiesHandler {
+  /**
+   * Gets data from specified property's name
+   * @param property name of property from where the method gets data
+   * @return the data under specified property
+   */
   public static String getProp(String property) {
 
     Properties mainProperties = new Properties();

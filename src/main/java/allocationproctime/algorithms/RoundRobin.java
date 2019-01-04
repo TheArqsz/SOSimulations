@@ -1,34 +1,42 @@
 package allocationproctime.algorithms;
 
-import com.opencsv.CSVReader;
 import allocationproctime.processes.Process;
 import propertieshandler.PropertiesHandler;
 
-import java.io.IOException;
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
+/**
+ * This class runs simulation for Round-Robin schedulding algorithm
+ * @author Arkadiusz Maruszczak
+ * @see BaseAllocationAlgorithm
+ *
+ */
 public class RoundRobin extends BaseAllocationAlgorithm{
 
-    protected int timeQuantum;
+    /**
+     * <p>Variable that stores time quantum value</p>
+     */
+    protected double timeQuantum;
 
+    /**
+     * <p>Array that stores boolean values. If process finishes, value in <b>isReady</b> array under index equal to its id is set to true. As default all values are set to false.  </p>
+     */
     protected Boolean[] isReady;
 
     /**
-     * The constructor.
+     * The constructor for RoundRobin class.
+     * @param pathToSourceFile  specifies path to source file
+     * @param timeQuantum       specifies time quantum for Round-Robin simulation
+     * @param isUnderTest       is set to true if method is used in tests. As default it is false.
      *
      */
-    public RoundRobin(String pathToSourceFile, boolean... isUnderTest) {
+    public RoundRobin(String pathToSourceFile, double timeQuantum, boolean... isUnderTest) {
         boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;
         this.pathToSourceFile = pathToSourceFile;
         this.amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
         this.waitingQueue = new ArrayList<Process>();
         this.readyQueue = new ArrayList<Process>();
-        this.timeQuantum = Integer.parseInt(PropertiesHandler.getProp("sim.timeQuantumRR"));
+        this.timeQuantum = !isTest ? timeQuantum : 1;
         isReady = new Boolean[amnt];
         for(int i = 0; i<amnt; i++){
             isReady[i]=false;
@@ -40,7 +48,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
 
     /**
      * <p>
-     * Begin schedulding algorithms.allocationproctime.processes
+     * Begins schedulding algorithms.allocationproctime.processes
      * </p>
      *
      */
@@ -51,6 +59,9 @@ public class RoundRobin extends BaseAllocationAlgorithm{
 
     }
 
+    /**
+     * <p>Overrides method from super class.</p>
+     */
     @Override
     protected void executeProcesses() {
         executeProcessesFCFS();
@@ -61,7 +72,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
 
     /**
      *
-     * Method that simulates the execution of processes in processor
+     * Simulates the execution of processes in processor using RoundRobin FCFS algorithm
      *
      */
     protected void executeProcessesFCFS() {
@@ -70,7 +81,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
         int i = 0;
 
         while (!allReady) {
-            int proccessingTime = timeQuantum;
+            double proccessingTime = timeQuantum;
             while(this.waitingQueue.get(i).getBurstTime()-proccessingTime<0){
                 proccessingTime-=1;
             }
@@ -103,7 +114,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
 
     /**
      *
-     * Method that simulates the execution of processes in processor
+     * Simulates the execution of processes in processor using RoundRobin FCFS algorithm
      *
      */
     protected void executeProcessesLCFS() {
@@ -112,7 +123,7 @@ public class RoundRobin extends BaseAllocationAlgorithm{
         int i = amnt-1;
 
         while (!allReady) {
-            int proccessingTime = timeQuantum;
+            double proccessingTime = timeQuantum;
             while(this.waitingQueue.get(i).getBurstTime()-proccessingTime<0){
                 proccessingTime-=1;
             }

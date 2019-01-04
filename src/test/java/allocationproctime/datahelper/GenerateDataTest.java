@@ -10,7 +10,16 @@ import java.nio.file.Paths;
 
 import static org.junit.Assert.*;
 
+/**
+ * Test class for {@link GenerateData} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
 public class GenerateDataTest {
+
+    /**
+     * Test for method {@link GenerateData#generateSourceFile(String)}
+     */
     @Test
     public void generateFile() {
         boolean doesFileExist = true;

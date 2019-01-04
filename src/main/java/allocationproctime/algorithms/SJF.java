@@ -1,32 +1,30 @@
 package allocationproctime.algorithms;
 
-import java.io.IOException;
-import java.io.Reader;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import com.opencsv.CSVReader;
 
 import allocationproctime.processes.Process;
 import propertieshandler.PropertiesHandler;
 
 
+
 /**
  * This class runs simulation for SJF schedulding algorithm
- *
- * @author amaruszc
+ * @author Arkadiusz Maruszczak
+ * @see BaseAllocationAlgorithm
  *
  */
 public class SJF extends BaseAllocationAlgorithm{
 
+  /**
+   * <p>Ready queue in which processes are stored when they finished processing</p>
+   */
   protected Process[] readyQueue;
 
   /**
-   * The constructor.
+   * The constructor for SJF class.
+   * @param pathToSourceFilepathToSourceFile  specifies path to source file
+   * @param isUnderTest                       is set to true if method is used in tests. As default it is false.
    *
    */
   public SJF(String pathToSourceFilepathToSourceFile, boolean... isUnderTest) {
@@ -43,7 +41,7 @@ public class SJF extends BaseAllocationAlgorithm{
 
   /**
    * <p>
-   * Begin schedulding processes
+   * Begins schedulding processes
    * </p>
    *
    */
@@ -54,6 +52,9 @@ public class SJF extends BaseAllocationAlgorithm{
     createReport("SJF");
   }
 
+  /**
+   * {@inheritDoc}
+   */
   protected void createProcesses() {
 
     super.createProcesses();
@@ -63,14 +64,14 @@ public class SJF extends BaseAllocationAlgorithm{
 
   /**
    *
-   * Method that simulates the execution of processes in processor
+   * Simulates the execution of processes in processor
    *
    */
   protected void executeProcesses() {
 
     boolean allReady = false;
     int i = 0;
-    int waitingTime = 0;
+    double waitingTime = 0;
 
     while (!allReady) {
       waitingTime += this.waitingQueue.get(i).getBurstTime();
@@ -88,6 +89,12 @@ public class SJF extends BaseAllocationAlgorithm{
 
   }
 
+  /**
+   * <p>Overrides method from super class</p>
+   * @param nameOfAlgorithm   specifies name of algorithm used
+   * @param isUnderTest       is set to true if method is used in tests. As default it is false.
+   *
+   */
   protected void createReport(String nameOfAlgorithm, boolean... isUnderTest) {
 
     boolean isTest = isUnderTest.length > 0 ? isUnderTest[0] : false;

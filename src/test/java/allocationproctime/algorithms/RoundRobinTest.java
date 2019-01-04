@@ -18,16 +18,22 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class RoundRobinTest {
+/**
+ * Test class for {@link RoundRobin} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
+public class RoundRobinTest extends BaseAlgorithmTest{
 
-    int amnt = 0;
-    final String pathToSourceFile ="src/test/resources/test.csv";
+    /**
+     * Test for constructor {@link RoundRobin#RoundRobin(String, double, boolean...)}
+     */
     @Test
     public void constructorTest(){
-        RoundRobin rr = new RoundRobin("test", true);
+        RoundRobin rr = new RoundRobin("test", 0,true);
         assertEquals("test", rr.pathToSourceFile);
         assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses")), rr.amnt);
-        assertEquals(Integer.parseInt(PropertiesHandler.getProp("sim.timeQuantumRR")), rr.timeQuantum);
+        assertEquals(1, rr.timeQuantum, 0.001);
         assertNotEquals(null, rr.waitingQueue);
         assertNotEquals(null, rr.readyQueue);
 
@@ -43,15 +49,18 @@ public class RoundRobinTest {
         assertTrue("Not all values are correct", allCorrect);
 
     }
+
+    /**
+     * Test for method {@link RoundRobin#executeProcesses()}
+     */
     @Test
     public void executeProcessesTest() {
         RoundRobin rr = null;
 
         try {
-            String pathToSourceFile ="src/test/resources/test.csv";
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            rr = new RoundRobin(pathToSourceFile, true);
+            rr = new RoundRobin(pathToSourceFile, 0.5, true);
             rr.createProcesses();
             rr.executeProcessesFCFS();
             reader.close();
@@ -60,10 +69,9 @@ public class RoundRobinTest {
         }
         assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
         try {
-            String pathToSourceFile ="src/test/resources/test.csv";
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            rr = new RoundRobin(pathToSourceFile, true);
+            rr = new RoundRobin(pathToSourceFile, 0.5, true);
             rr.createProcesses();
             rr.executeProcessesLCFS();
             reader.close();
@@ -72,18 +80,25 @@ public class RoundRobinTest {
         }
         assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
     }
+
+    /**
+     * Test for method {@link RoundRobin#createProcesses()}
+     */
     @Test
     public void createProcessesTest() {
         String pathToSourceFile = "src/test/resources/test.csv";
-        RoundRobin rr = new RoundRobin(pathToSourceFile, true);
+        RoundRobin rr = new RoundRobin(pathToSourceFile, 0, true);
         rr.createProcesses();
         assertTrue("Process creation finish unproperly" ,rr.amnt==rr.waitingQueue.size());
     }
 
+    /**
+     * Test for method {@link RoundRobin#createReport(String, boolean...)}
+     */
     @Test
     public void createReportTest() {
 
-        float avgExpectedAwaitTime = 0;
+        double avgExpectedAwaitTime = 0;
 
         FCFS fcfs = null;
         try {
@@ -106,22 +121,6 @@ public class RoundRobinTest {
             e.printStackTrace();
         }
         assertEquals(avgExpectedAwaitTime, fcfs.avgAwaitTime, 0.00001);
-    }
-    @After
-    public void deleteTempFile() {
-        File f = new File(pathToSourceFile);
-        f.deleteOnExit();
-    }
-
-    @Before
-    public void createTempSourceFile() throws IOException {
-        CSVWriter writer = new CSVWriter(new FileWriter(new File(pathToSourceFile)));
-        amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
-        for (int i = 0; i < amnt; i++) {
-            String[] data = { Integer.toString(i), Integer.toString(1) };
-            writer.writeNext(data);
-        }
-        writer.close();
     }
 
 }

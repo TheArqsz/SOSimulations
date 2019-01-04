@@ -13,18 +13,19 @@ import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class SJFTest {
+/**
+ * Test class for {@link SJF} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
+public class SJFTest extends BaseAlgorithmTest{
 
-    int amnt = 0;
-    private Process[] readyQueue;
-
-    final String pathToSourceFile ="src/test/resources/test.csv";
-
+    /**
+     * Test for constructor {@link SJF#SJF(String, boolean...)}
+     */
     @Test
     public void constructorTest(){
         SJF sjf = new SJF("test", true);
@@ -33,6 +34,10 @@ public class SJFTest {
         assertNotEquals(null, sjf.waitingQueue);
         assertNotEquals(null, sjf.readyQueue);
     }
+
+    /**
+     * Test for method {@link SJF#executeProcesses()}
+     */
     @Test
     public void executeProcessesTest() {
         SJF sjf = null;
@@ -49,6 +54,10 @@ public class SJFTest {
         }
         assertTrue("Process execution finish unproperly" ,amnt==sjf.readyQueue.length);
     }
+
+    /**
+     * Test for method {@link SJF#createProcesses()}
+     */
     @Test
     public void createProcessesTest() {
         SJF sjf = new SJF(pathToSourceFile, true);
@@ -65,6 +74,9 @@ public class SJFTest {
         assertTrue("Process creation finish unproperly" ,amnt==sjf.waitingQueue.size());
     }
 
+    /**
+     * Test for method {@link SJF#createReport(String, boolean...)}
+     */
     @Test
     public void createReportTest() {
 
@@ -98,21 +110,4 @@ public class SJFTest {
         assertEquals(avgExpectedAwaitTime, sjf.avgAwaitTime, 0.00001);
         assertEquals(avgExpectedProcessingTime, sjf.avgProcessingTime, 0.00001);
     }
-    @After
-    public void deleteTempFile() {
-        File f = new File(pathToSourceFile);
-        f.deleteOnExit();
-    }
-
-    @Before
-    public void createTempSourceFile() throws IOException {
-        CSVWriter writer = new CSVWriter(new FileWriter(new File(pathToSourceFile)));
-        amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
-        for (int i = 0; i < amnt; i++) {
-            String[] data = { Integer.toString(i), Integer.toString(1) };
-            writer.writeNext(data);
-        }
-        writer.close();
-    }
-
 }

@@ -8,8 +8,16 @@ import java.util.Properties;
 
 import static org.junit.Assert.*;
 
+/**
+ * Test class for {@link PropertiesHandler} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
 public class PropertiesHandlerTest {
 
+    /**
+     * Test for method {@link PropertiesHandler#getProp(String)}
+     */
     @Test
     public void getProp() {
         boolean isFileValid = true;

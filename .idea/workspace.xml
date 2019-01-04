@@ -1,20 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/paging/pages/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/paging/frames/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateSumUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/main/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/PriorityProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/PriorityProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paging/pages/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes3.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes4.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/simulation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/LCFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/LCFSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/simulation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/propertieshandler/PropertiesHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/propertieshandler/PropertiesHandlerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,51 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/pages/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="17" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="177">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +91,80 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="387">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/package.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="101" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="110" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/package.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/package.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="99" lean-forward="true" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,20 +178,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Float</find>
+      <find>page</find>
+      <find>Page</find>
       <find>float</find>
+      <find>amaruszc</find>
     </findStrings>
     <replaceStrings>
       <replace>Double</replace>
+      <replace>frame</replace>
+      <replace>Frame</replace>
       <replace>double</replace>
+      <replace>Arkadiusz Maruszczak</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\amaruszc\Desktop\SOSimulations</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,31 +219,49 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithms/allocationproctime/RoundRobin.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/allocationproctime/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAllocationAlgorithmTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/processes6.csv" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/pages/Frame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/pages/BaseFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/frames/Frame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/processes/PriorityProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctimetests/algorithms/RoundRobin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctimetests/algorithms/RoundRobinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/LCFSTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateSumUpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/processes6.csv" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paging/pages/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java" />
-        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/overview.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/overview.html" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/processes/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/properties.html" />
+        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/package.html" />
+        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmTest.java" />
       </list>
     </option>
   </component>
@@ -200,8 +288,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,11 +300,6 @@
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name=".settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,7 +330,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="allocationproctime" type="462c0819:PsiDirectoryNode" />
-              <item name="processes" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +338,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paging" type="462c0819:PsiDirectoryNode" />
+              <item name="allocationproctime" type="462c0819:PsiDirectoryNode" />
+              <item name="datahelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -269,8 +353,31 @@
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="allocationproctime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="allocationproctime" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,25 +388,34 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546544681197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546615495370" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="allocationproctime.datahelper" />
       <recent name="allocationproctime.algorithms" />
       <recent name="allocationproctime.processes" />
-      <recent name="allocationproctime.datahelper" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="paging" />
       <recent name="allocationproctime" />
+      <recent name="paging" />
       <recent name="algorithms.allocationproctime" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amaruszc\Desktop\SOSimulations\src\main\java\allocationproctime\datahelper" />
+      <recent name="C:\Users\amaruszc\Desktop\SOSimulations\src\main\java\allocationproctime\algorithms" />
+      <recent name="C:\Users\amaruszc\Desktop\SOSimulations\src\main\java\allocationproctime\processes" />
+      <recent name="C:\Users\amaruszc\Desktop\SOSimulations\src\main\java\propertieshandler" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,12 +431,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in simulation">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allocationproctime.main.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.allocationproctime.main.Main" />
       <module name="simulation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allocationproctime.main.*" />
+          <option name="PATTERN" value="algorithms.allocationproctime.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,11 +445,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.allocationproctime.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="allocationproctime.Main" />
       <module name="simulation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.allocationproctime.main.*" />
+          <option name="PATTERN" value="allocationproctime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,43 +503,44 @@
       <workItem from="1546458814711" duration="10321000" />
       <workItem from="1546505102207" duration="5339000" />
       <workItem from="1546511049518" duration="19091000" />
+      <workItem from="1546593139731" duration="19033000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_simulation - 2019.01.03 at 14h 44m 01s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 12h 38m 00s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 14h 44m 04s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 13h 26m 54s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 16h 46m 33s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 13h 27m 16s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 16h 47m 13s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 40m 06s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 19h 15m 32s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 40m 38s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 19h 16m 29s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 42m 12s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 19h 17m 52s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 42m 24s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 20h 28m 19s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 46m 02s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 20h 44m 20s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 55m 32s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_simulation - 2019.01.03 at 20h 44m 34s.xml">
+    <history-entry file="All_in_simulation - 2019.01.04 at 14h 58m 08s.xml">
       <configuration name="All in simulation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38789000" />
+    <option name="totallyTimeSpent" value="57763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,10 +552,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25080907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29215896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -447,14 +564,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.33217993" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989259" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39887005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053704" side_tool="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50107414" side_tool="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989259" weight="0.3252595" />
@@ -471,7 +588,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32928804" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2878625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29215896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -480,17 +597,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.32881355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989259" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39887005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053704" side_tool="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50107414" side_tool="true" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989259" weight="0.32542372" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4989259" weight="0.3252595" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4384181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -570,23 +687,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateDataTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/ProcessTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcessTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/processes2.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -597,18 +697,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reporthandler/ReportGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAllocationAlgorithmTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Float.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAllocationAlgorithmTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="67" selection-start-line="59" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes6.csv" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="123" column="55" lean-forward="true" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/LCFSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        <state relative-caret-position="177">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -617,203 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Float.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="79" column="90" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="67" selection-start-line="59" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes6.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="67" column="98" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="715" column="23" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="63">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -822,13 +810,292 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="-456">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateSumUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reporthandler/ReportGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/PriorityProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/propertieshandler/PropertiesHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="101" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/properties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="110" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="99" lean-forward="true" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>simulation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.itextpdf:itextpdf:5.5.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

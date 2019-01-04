@@ -9,27 +9,49 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-import static allocationproctime.datahelper.GenerateSumUp.*;
+/**
+ * <p>Abstract class for all algorithms</p>
+ * @see FCFS
+ * @see LCFS
+ * @see RoundRobin
+ * @see SJF
+ */
 
 public abstract class BaseAllocationAlgorithm {
-
+    /**
+     * <p>Waiting queue in which processes are stored while they are being processed or waiting</p>
+     */
     List<Process> waitingQueue = null;
-
+    /**
+     * <p>Ready queue in which processes are stored when they finished processing</p>
+     */
     List<Process> readyQueue = null;
 
+    /**
+     * <p>Path to source file in which processes are stored</p>
+     */
     String pathToSourceFile;
+    /**
+     * <p>Amount of processes used</p>
+     */
     int amnt;
+    /**
+     * <p>Average waiting time of processes</p>
+     */
     double avgAwaitTime;
+    /**
+     * <p>Average processing time of processes</p>
+     */
     double avgProcessingTime;
 
     /**
-     *  Abstract method that simulates the execution of processes in processor
+     *  Abstract method that simulates execution of processes in processor
      */
     protected abstract void executeProcesses();
 
     /**
      * <p>
-     * Create processes using data from file "processes.csv" and put them to waiting queue
+     * Creates processes using data from file "processes.csv" and put them to waiting queue
      * </p>
      *
      */
@@ -40,7 +62,8 @@ public abstract class BaseAllocationAlgorithm {
             String[] nextValues;
             while ((nextValues = csvReader.readNext()) != null) {
 
-                this.waitingQueue.add(new Process(Integer.parseInt(nextValues[0]), Integer.parseInt(nextValues[1])));
+                this.waitingQueue.add(new Process(Integer.parseInt(nextValues[0]), Double.parseDouble(nextValues[1])));
+
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -48,8 +71,9 @@ public abstract class BaseAllocationAlgorithm {
     }
 
     /**
-     *  Generates results
-     * @param nameOfAlgorithm is equal to name of algorithm
+     *  Calculates average waiting and processing time for specific algorithm
+     *  @param nameOfAlgorithm is equal to name of algorithm
+     *  @param isUnderTest is set to true if method is used in tests. As default it is false.
      */
     protected void createReport(String nameOfAlgorithm, boolean... isUnderTest) {
 
@@ -75,10 +99,18 @@ public abstract class BaseAllocationAlgorithm {
 
     }
 
+    /**
+     * Gets average waiting time of processes
+     * @return the value under the avgAwaitTime variable
+     */
     public double getAvgAwaitTime(){
         return this.avgAwaitTime;
     }
 
+    /**
+     * Gets average processing time of processes
+     * @return the value under the avgAwaitTime variable
+     */
     public double getAvgProcessingTime(){
         return this.avgProcessingTime;
     }

@@ -24,7 +24,7 @@ public class PriorityProcess extends BaseProcess {
   /**
    * The constructor.
    */
-  public PriorityProcess(int id, int burstTime, int priority) {
+  public PriorityProcess(int id, double burstTime, int priority) {
 
     setId(id);
     setBurstTime(burstTime);
@@ -33,7 +33,7 @@ public class PriorityProcess extends BaseProcess {
   /**
    * The constructor.
    */
-  public PriorityProcess(int id, int burstTime, int priority, int awaitTime) {
+  public PriorityProcess(int id, double burstTime, int priority, double awaitTime) {
 
     setId(id);
     setBurstTime(burstTime);

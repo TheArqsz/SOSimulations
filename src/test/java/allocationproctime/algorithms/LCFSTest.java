@@ -18,9 +18,16 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class LCFSTest {
-    int amnt = 0;
-    final String pathToSourceFile ="src/test/resources/test.csv";
+/**
+ * Test class for {@link LCFS} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
+public class LCFSTest extends BaseAlgorithmTest{
+
+    /**
+     * Test for constructor {@link LCFS#LCFS(String, boolean...)}
+     */
     @Test
     public void constructorTest(){
         LCFS lcfs = new LCFS("test", true);
@@ -29,6 +36,10 @@ public class LCFSTest {
         assertNotEquals(null, lcfs.waitingQueue);
         assertNotEquals(null, lcfs.readyQueue);
     }
+
+    /**
+     * Test for method {@link LCFS#executeProcesses()}
+     */
     @Test
     public void executeProcessesTest() {
         LCFS lcfs = null;
@@ -46,14 +57,21 @@ public class LCFSTest {
         }
         assertTrue("Process execution finish unproperly" ,amnt==lcfs.readyQueue.size());
     }
+
+    /**
+     * Test for method {@link LCFS#createProcesses()}
+     */
     @Test
     public void createProcessesTest() {
         String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
-        LCFS fcfs = new LCFS(pathToSourceFile, true);
-        fcfs.createProcesses();
-        assertTrue("Process creation finish unproperly" ,fcfs.amnt==fcfs.waitingQueue.size());
+        LCFS lcfs = new LCFS(pathToSourceFile, true);
+        lcfs.createProcesses();
+        assertTrue("Process creation finish unproperly" ,lcfs.amnt==lcfs.waitingQueue.size());
     }
 
+    /**
+     * Test for method {@link LCFS#createReport(String, boolean...)} ()}
+     */
     @Test
     public void createReportTest() {
 
@@ -79,21 +97,5 @@ public class LCFSTest {
             e.printStackTrace();
         }
         assertEquals(avgExpectedAwaitTime, lcfs.avgAwaitTime, 0);
-    }
-    @After
-    public void deleteTempFile() {
-        File f = new File(pathToSourceFile);
-        f.deleteOnExit();
-    }
-
-    @Before
-    public void createTempSourceFile() throws IOException {
-        CSVWriter writer = new CSVWriter(new FileWriter(new File(pathToSourceFile)));
-        amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
-        for (int i = 0; i < amnt; i++) {
-            String[] data = { Integer.toString(i), Integer.toString(1) };
-            writer.writeNext(data);
-        }
-        writer.close();
     }
 }

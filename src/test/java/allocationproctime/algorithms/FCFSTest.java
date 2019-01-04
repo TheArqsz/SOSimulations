@@ -13,13 +13,18 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.*;
+/**
+ * Test class for {@link FCFS} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
+public class FCFSTest extends BaseAlgorithmTest{
 
-public class FCFSTest {
-    int amnt = 0;
-    final String pathToSourceFile ="src/test/resources/test.csv";
+    /**
+     * Test for constructor {@link FCFS#FCFS(String, boolean...)}
+     */
     @Test
     public void constructorTest(){
         FCFS fcfs = new FCFS("test", true);
@@ -28,6 +33,10 @@ public class FCFSTest {
         assertNotEquals(null, fcfs.waitingQueue);
         assertNotEquals(null, fcfs.readyQueue);
     }
+
+    /**
+     * Test for method {@link FCFS#executeProcesses()}
+     */
     @Test
     public void executeProcessesTest() {
         FCFS fcfs = null;
@@ -45,6 +54,10 @@ public class FCFSTest {
         }
         assertTrue("Process execution finish unproperly" ,amnt==fcfs.readyQueue.size());
     }
+
+    /**
+     * Test for method {@link FCFS#createProcesses()}
+     */
     @Test
     public void createProcessesTest() {
         String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
@@ -53,6 +66,9 @@ public class FCFSTest {
         assertTrue("Process creation finish unproperly" ,fcfs.amnt==fcfs.waitingQueue.size());
     }
 
+    /**
+     * Test for method {@link FCFS#createReport(String, boolean...)}
+     */
     @Test
     public void createReportTest() {
 
@@ -80,20 +96,7 @@ public class FCFSTest {
         }
         assertEquals(avgExpectedAwaitTime, fcfs.avgAwaitTime, 0.00001);
     }
-    @After
-    public void deleteTempFile() {
-        File f = new File(pathToSourceFile);
-        f.deleteOnExit();
-    }
 
-    @Before
-    public void createTempSourceFile() throws IOException {
-        CSVWriter writer = new CSVWriter(new FileWriter(new File(pathToSourceFile)));
-        amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfProcesses"));
-        for (int i = 0; i < amnt; i++) {
-            String[] data = { Integer.toString(i), Integer.toString(1) };
-            writer.writeNext(data);
-        }
-        writer.close();
-    }
+
+
 }
