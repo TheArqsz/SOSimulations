@@ -1,10 +1,16 @@
 package scheduling;
 
+import com.opencsv.CSVWriter;
 import scheduling.algorithms.*;
 import scheduling.datahelper.GenerateData;
 import scheduling.datahelper.GenerateSumUp;
 import org.apache.commons.math3.util.Precision;
 import propertieshandler.PropertiesHandler;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashMap;
 
 
 /**
@@ -35,6 +41,10 @@ public class Main {
      * Array that stores all time quantums used for simulation in Round-Robin algorithm
      */
     Double[] timeQuantums = GenerateData.processArrayToDbl(PropertiesHandler.getProp("sim.timeQuantumRR").split(","));
+
+    HashMap<Double, GenerateSumUp> results = new HashMap<>();
+
+
     /**
      * Loop that generates source files
      */
@@ -67,6 +77,7 @@ public class Main {
         //System.out.println("END");
       }
 
+      results.put(timeQuantums[x], avgTimes);
       System.out.println("\nAmount of processes: " + amnt);
       System.out.println("Amount of tries: " + tries);
       System.out.println("Used value of time quantum: " + timeQuantums[x]);
@@ -77,6 +88,7 @@ public class Main {
       System.out.println("RoundRobin FCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin FCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin FCFS") / tries, 3) + "[time unit]");
       System.out.println("RoundRobin LCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin LCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin LCFS") / tries, 3) + "[time unit]");
     }
+    generateSummary(results, amnt, tries);
   }
 
 
@@ -132,5 +144,38 @@ public class Main {
     avgTimes.setAvgProccessingTimeSum(avgTimes.getAvgProccessingTimeSum("RoundRobin LCFS") + rrLCFS.getAvgProcessingTime(), "RoundRobin LCFS");
 
   }
+
+  private static void generateSummary(HashMap<Double, GenerateSumUp> results, int amountOfProcesses, int tries){
+        try {
+            String destinationPath = PropertiesHandler.getProp("sim.pathToProcessesSummary") + PropertiesHandler.getProp("sim.processesSummaryName");
+            CSVWriter writer = new CSVWriter(new FileWriter(new File(destinationPath)));
+
+            /**
+             * Array that stores all time quantums used for simulation in Round-Robin algorithm
+             */
+            Double[] timeQuantums = GenerateData.processArrayToDbl(PropertiesHandler.getProp("sim.timeQuantumRR").split(","));
+
+            {
+                String[] header = {"Time Quantum", "Algorithm", "Amount of processes", "Average processing time", "Average waiting time"};
+                writer.writeNext(header);
+            }
+
+            for(int i=0; i<timeQuantums.length;i++) {
+
+                String[] algorithmNames = {"FCFS", "LCFS", "SJF", "RoundRobin FCFS", "RoundRobin LCFS"};
+                for (String algorithmName: algorithmNames) {
+                    double avgWaitTime = Precision.round(results.get(timeQuantums[i]).getAvgAwaitTimeSum(algorithmName) / tries, 3);
+                    double avgProcessingTime = Precision.round(results.get(timeQuantums[i]).getAvgProccessingTimeSum(algorithmName) / tries, 3);
+                    String[] data = {Double.toString(timeQuantums[i]).replace('.', '.'), algorithmName, Integer.toString(amountOfProcesses), Double.toString(avgWaitTime), Double.toString(avgProcessingTime) };
+                    writer.writeNext(data);
+
+                }
+                writer.writeNext(new String[0]);
+            }
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

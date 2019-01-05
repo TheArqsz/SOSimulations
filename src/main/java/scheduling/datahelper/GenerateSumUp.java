@@ -42,20 +42,6 @@ public class GenerateSumUp {
         //destinationFilePath =
     }
 
-    /*public void generateSummary(){
-        try {
-            CSVWriter writer = new CSVWriter(new FileWriter(new File(filePath)));
-            Random r = new Random();
-            for (int i = 0; i < amnt; i++) {
-                String[] data = { Integer.toString(i), Integer.toString(r.nextInt(Integer.parseInt(PropertiesHandler.getProp("sim.rangeOfBurstTime")))+1) };
-                writer.writeNext(data);
-            }
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    }*/
 
     /**
      * Gets sum of average waiting time of process

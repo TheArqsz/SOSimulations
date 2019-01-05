@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scheduling/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes10.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes100.csv" afterDir="false" />
@@ -142,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +152,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="168" column="85" selection-start-line="168" selection-start-column="85" selection-end-line="168" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/schedulingSummary.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3">
+              <column index="0" width="100" />
+              <column index="1" width="100" />
+              <column index="2" width="100" />
+              <column index="3" width="100" />
+              <column index="4" width="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -237,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/schedulding/processes/package.html" />
         <option value="$PROJECT_DIR$/src/main/java/schedulding/algorithms/package.html" />
         <option value="$PROJECT_DIR$/src/main/java/schedulding/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scheduling/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/FCFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/BaseSchedulingAlgorithm.java" />
@@ -247,9 +272,10 @@
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/SJF.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" />
         <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scheduling/Main.java" />
       </list>
     </option>
   </component>
@@ -289,11 +315,6 @@
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name=".settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="javadocScheduling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -413,7 +434,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546708955998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546710949184" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -588,7 +609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76123000" />
+    <option name="totallyTimeSpent" value="78103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +753,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/ProcessTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcessTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/processes2.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -937,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/package.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/package.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1044,30 +1057,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="65" column="3" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="65" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1091,10 +1084,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schedulingSummary.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="168" column="85" selection-start-line="168" selection-start-column="85" selection-end-line="168" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
