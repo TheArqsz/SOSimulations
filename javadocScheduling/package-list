@@ -2,5 +2,5 @@ propertieshandler
 reporthandler
 scheduling
 scheduling.algorithms
-scheduling.datahelper
+datahelper
 scheduling.processes

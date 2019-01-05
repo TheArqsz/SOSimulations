@@ -1,9 +1,16 @@
 package paging.frames;
 
+import org.apache.commons.lang3.ObjectUtils;
+
+/**
+ * <p>Class that describes frames.</p>
+ * @author Arkadiusz Maruszczak
+ *
+ */
 public class Frame extends BaseFrame {
 
     /**
-     * The default constructor. Everything is set to 0
+     * The default constructor. Everything is set to 0.
      */
     public Frame() {
 
@@ -36,4 +43,6 @@ public class Frame extends BaseFrame {
         setAgeOfFrame(ageOfFrame);
         setAmountOfUses(amountOfUses);
     }
+
+
 }

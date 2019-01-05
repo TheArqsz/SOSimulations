@@ -1,4 +1,4 @@
-package scheduling.datahelper;
+package datahelper;
 
 import org.junit.Test;
 import propertieshandler.PropertiesHandler;

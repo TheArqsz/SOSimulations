@@ -2,8 +2,8 @@ package scheduling;
 
 import com.opencsv.CSVWriter;
 import scheduling.algorithms.*;
-import scheduling.datahelper.GenerateData;
-import scheduling.datahelper.GenerateSumUp;
+import datahelper.GenerateData;
+import datahelper.GenerateSumUp;
 import org.apache.commons.math3.util.Precision;
 import propertieshandler.PropertiesHandler;
 
@@ -49,8 +49,8 @@ public class Main {
      * Loop that generates source files
      */
     for (int i =1; i<=tries; i++){
-      String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfFile") + i + PropertiesHandler.getProp("sim.extension");
-      GenerateData.generateSourceFile(pathToSourceFile);
+      String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfProcessesFile") + i + PropertiesHandler.getProp("sim.extension");
+      GenerateData.generateProcessesSourceFile(pathToSourceFile);
     }
 
     /**
