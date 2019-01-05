@@ -78,8 +78,8 @@ public class Main {
             System.out.println("\nAmount of pages: " + amnt);
             System.out.println("Amount of tries: " + tries);
             System.out.println("Used value of avaible frames in physical memory: " + avaiblePhysicalMemoryFrames[x]);
-            System.out.println("\n\nLRU: avg amount of page faults time: " + Precision.round(avgTimes.getAvgAmountOfFaultsSum("LRU") / tries, 3) );
-            System.out.println("LFU: avg amount of page faults time: " + Precision.round(avgTimes.getAvgAmountOfFaultsSum("LFU") / tries, 3) );
+            System.out.println("\n\nLRU: avg amount of page faults : " + Precision.round(avgTimes.getAvgAmountOfFaultsSum("LRU") / tries, 3) );
+            System.out.println("LFU: avg amount of page faults : " + Precision.round(avgTimes.getAvgAmountOfFaultsSum("LFU") / tries, 3) );
         }
         generateSummary(results, amnt, tries);
     }
