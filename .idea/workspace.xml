@@ -7,10 +7,108 @@
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes100.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes11.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes12.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes13.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes13.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes14.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes14.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes15.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes16.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes16.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes18.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes19.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes20.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes21.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes22.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes22.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes23.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes23.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes24.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes24.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes25.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes25.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes26.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes26.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes27.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes27.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes28.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes28.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes29.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes30.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes31.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes31.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes32.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes33.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes33.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes34.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes34.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes35.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes35.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes36.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes36.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes37.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes37.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes38.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes38.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes39.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes39.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes40.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes41.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes41.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes42.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes42.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes43.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes43.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes44.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes44.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes45.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes45.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes46.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes46.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes47.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes47.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes48.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes48.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes49.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes49.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes50.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes51.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes51.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes52.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes52.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes53.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes53.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes54.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes54.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes55.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes55.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes56.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes56.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes57.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes57.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes58.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes58.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes59.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes59.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes60.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes60.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes61.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes61.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes62.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes62.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes63.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes63.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes64.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes64.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes65.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes65.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes66.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes66.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes67.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes67.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes68.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes69.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes70.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes70.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes71.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes71.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes72.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes72.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes73.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes73.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes74.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes74.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes75.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes75.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes76.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes76.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes77.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes77.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes78.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes78.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes79.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes79.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes80.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes80.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes81.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes81.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes82.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes82.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes83.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes83.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes84.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes84.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes85.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes85.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes86.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes86.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes87.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes87.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes88.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes88.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes89.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes90.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes90.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes91.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes91.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes92.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes92.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes93.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes93.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes94.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes94.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes95.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes95.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes96.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes96.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes97.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes97.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes98.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes98.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/processes99.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/processes99.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/simulation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/simulation.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -132,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/main/java/schedulding/datahelper/GenerateSumUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/schedulding/datahelper/GenerateSumUpTest.java" />
         <option value="$PROJECT_DIR$/javadocScheduling/1processes.html" />
-        <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/javadocScheduling/processes.html" />
         <option value="$PROJECT_DIR$/src/main/java/schedulding/datahelper/package.html" />
         <option value="$PROJECT_DIR$/src/main/java/schedulding/package.html" />
@@ -151,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" />
+        <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
       </list>
     </option>
@@ -262,6 +360,13 @@
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +413,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546708684700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546708955998" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -426,10 +531,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in simulation" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JUnit.GenerateSumUpTest.setAvgAwaitTimeSumTest" />
         <item itemvalue="JUnit.GenerateSumUpTest.getAvgProccessingTimeSumTest" />
-        <item itemvalue="JUnit.All in simulation" />
       </list>
     </recent_temporary>
   </component>
@@ -451,9 +556,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenerateSumUpTest_constructorTest - 2019.01.05 at 14h 45m 39s.xml">
-      <configuration name="GenerateSumUpTest.constructorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GenerateSumUpTest_setAvgProccessingTimeSumTest - 2019.01.05 at 14h 45m 43s.xml">
       <configuration name="GenerateSumUpTest.setAvgProccessingTimeSumTest" configurationId="JUnit" />
     </history-entry>
@@ -481,9 +583,12 @@
     <history-entry file="GenerateSumUpTest_setAvgAwaitTimeSumTest - 2019.01.05 at 14h 51m 32s.xml">
       <configuration name="GenerateSumUpTest.setAvgAwaitTimeSumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_simulation - 2019.01.05 at 18h 19m 09s.xml">
+      <configuration name="All in simulation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75854000" />
+    <option name="totallyTimeSpent" value="76123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +619,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.33044422" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50692964" side_tool="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49840087" weight="0.32502708" />
@@ -627,7 +732,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateDataTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/ProcessTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcessTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/processes2.csv">
@@ -826,13 +930,6 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javadocScheduling/simulationproperties.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javadocScheduling/processes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -851,13 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="119" selection-start-line="2" selection-start-column="119" selection-end-line="2" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -984,10 +1074,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javadocScheduling/simulationproperties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadocScheduling/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
