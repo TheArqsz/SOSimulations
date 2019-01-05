@@ -6,228 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinLCFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scheduling/processes/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scheduling/datahelper/GenerateSumUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/BaseAlgorithmTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/BaseAlgorithmTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/BaseAllocationAlgorithm.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/BaseAllocationAlgorithm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/FCFS.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/FCFS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/FCFSTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/FCFSTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/LCFS.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/LCFS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/LCFSTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/LCFSTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/RoundRobin.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/RoundRobin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/RoundRobinTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/RoundRobinTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/SJF.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/SJF.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/SJFTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/SJFTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/algorithms/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/algorithms/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/GenerateData.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/GenerateData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/GenerateDataTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/GenerateDataTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/GenerateSumUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/GenerateSumUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/GenerateSumUpTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/GenerateSumUpTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/datahelper/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/datahelper/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/BaseProcess.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/BaseProcess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/BaseProcessTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/BaseProcessTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/PriorityProcess.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/PriorityProcess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/Process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/ProcessTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/ProcessTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allocationproctime/processes/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/allocationproctime/processes/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/paging/frames/BaseFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/paging/frames/BaseFrame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/paging/frames/Frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/paging/frames/Frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/paging/frames/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/paging/frames/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/paging/frames/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/paging/frames/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/paging/frames/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/paging/frames/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/processes.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/processes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/propertieshandler/PropertiesHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/propertieshandler/PropertiesHandler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/propertieshandler/PropertiesHandlerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/propertieshandler/PropertiesHandlerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/propertieshandler/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/propertieshandler/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/propertieshandler/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/propertieshandler/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/propertieshandler/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/propertieshandler/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/reporthandler/ReportGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/reporthandler/ReportGenerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/reporthandler/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/reporthandler/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/reporthandler/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/reporthandler/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/reporthandler/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/reporthandler/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/simulation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadocScheduling/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/BaseAllocationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/BaseSchedulingAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/FCFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/FCFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/LCFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/LCFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/RoundRobin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinFCFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/SJF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/algorithms/SJF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/algorithms/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/GenerateSumUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/datahelper/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/BaseProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/processes/BaseProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/PriorityProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/processes/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/allocationproctime/processes/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes11.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes12.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes13.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes13.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes14.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes14.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes15.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes16.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes16.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes18.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes19.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes21.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes22.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes22.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes23.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes23.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes24.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes24.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes25.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes25.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes26.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes26.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes27.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes27.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes28.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes28.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes29.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes31.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes31.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes32.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes33.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes33.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes34.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes34.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes35.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes35.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes36.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes36.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes37.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes37.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes38.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes38.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes39.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes39.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes40.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes41.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes41.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes42.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes42.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes43.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes43.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes44.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes44.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes45.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes45.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes46.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes46.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes47.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes47.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes48.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes48.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes49.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes49.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes51.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes51.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes52.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes52.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes53.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes53.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes54.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes54.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes55.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes55.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes56.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes56.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes57.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes57.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes58.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes58.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes59.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes59.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes60.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes60.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes61.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes61.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes62.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes62.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes63.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes63.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes64.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes64.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes65.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes65.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes66.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes66.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes67.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes67.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes68.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes69.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes70.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes70.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes71.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes71.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes72.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes72.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes73.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes73.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes74.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes74.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes75.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes75.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes76.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes76.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes77.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes77.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes78.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes78.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes79.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes79.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes80.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes80.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes81.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes81.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes82.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes82.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes83.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes83.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes84.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes84.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes85.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes85.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes86.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes86.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes87.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes87.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes88.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes88.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes89.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes90.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes90.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes91.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes91.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes92.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes92.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes93.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes93.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes94.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes94.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes95.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes95.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes96.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes96.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes97.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes97.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes98.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes98.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/processes99.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes99.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/simulation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/BaseAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/algorithms/BaseAlgorithmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/FCFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/LCFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/algorithms/LCFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/RoundRobinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/algorithms/RoundRobinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/algorithms/SJFTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/datahelper/GenerateDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateSumUpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/processes/BaseProcessTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scheduling/processes/ProcessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/propertieshandler/PropertiesHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/simulation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/simulation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/propertieshandler/PropertiesHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/propertieshandler/PropertiesHandlerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -259,61 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinFCFS.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/Process.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinLCFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
-              <caret line="73" column="153" selection-start-line="73" selection-start-column="153" selection-end-line="73" selection-end-column="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/SJF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="68" column="151" selection-start-line="68" selection-start-column="151" selection-end-line="68" selection-end-column="151" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-518">
-              <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+            <state relative-caret-position="445">
+              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -322,40 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/BaseProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-263">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/LCFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -399,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/allocationproctime/algorithms/SJFTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/datahelper/GenerateDataTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/BaseProcessTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/allocationproctime/processes/ProcessTest.java" />
@@ -430,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/java/schedulding/datahelper/GenerateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/schedulding/datahelper/GenerateSumUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/schedulding/datahelper/GenerateSumUpTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
         <option value="$PROJECT_DIR$/javadocScheduling/1processes.html" />
         <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/javadocScheduling/processes.html" />
@@ -449,7 +149,9 @@
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinLCFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/SJF.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
       </list>
     </option>
   </component>
@@ -606,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546707611935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546708684700" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -651,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scheduling.Main" />
       <module name="simulation" />
@@ -723,8 +425,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JUnit.GenerateSumUpTest.setAvgAwaitTimeSumTest" />
         <item itemvalue="JUnit.GenerateSumUpTest.getAvgProccessingTimeSumTest" />
         <item itemvalue="JUnit.All in simulation" />
@@ -781,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74829000" />
+    <option name="totallyTimeSpent" value="75854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,7 +498,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -805,15 +507,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4936034" visible="true" weight="0.33044422" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49307036" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.33044422" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.33044422" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49840087" weight="0.32502708" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4384181" />
@@ -1124,13 +826,6 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javadocScheduling/simulationproperties.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1238,16 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
-          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/BaseProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-263">
@@ -1279,13 +964,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="383">
+          <caret line="65" column="3" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="65" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateSumUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>

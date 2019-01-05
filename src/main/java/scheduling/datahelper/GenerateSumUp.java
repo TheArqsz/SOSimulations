@@ -1,9 +1,15 @@
 package scheduling.datahelper;
 
+import com.opencsv.CSVWriter;
 import org.apache.commons.lang3.tuple.Pair;
+import propertieshandler.PropertiesHandler;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * <p>Class that allows to generate sum-up after simulation</p>
@@ -17,6 +23,10 @@ public class GenerateSumUp {
     protected Map<String, Pair<Double, Double>> algorithmTimesMap = null;
 
     /**
+     *
+     */
+    protected String destinationFilePath;
+    /**
      * The constructor for GenerateSumUp class
      */
     public GenerateSumUp()
@@ -29,7 +39,23 @@ public class GenerateSumUp {
         algorithmTimesMap.put("SJF", pair);
         algorithmTimesMap.put("RoundRobin FCFS", pair);
         algorithmTimesMap.put("RoundRobin LCFS", pair);
+        //destinationFilePath =
     }
+
+    /*public void generateSummary(){
+        try {
+            CSVWriter writer = new CSVWriter(new FileWriter(new File(filePath)));
+            Random r = new Random();
+            for (int i = 0; i < amnt; i++) {
+                String[] data = { Integer.toString(i), Integer.toString(r.nextInt(Integer.parseInt(PropertiesHandler.getProp("sim.rangeOfBurstTime")))+1) };
+                writer.writeNext(data);
+            }
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    }*/
 
     /**
      * Gets sum of average waiting time of process
