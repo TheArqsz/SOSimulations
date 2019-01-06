@@ -49,7 +49,7 @@ public class Main {
      * Loop that generates source files
      */
     for (int i =1; i<=tries; i++){
-      String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfProcessesFile") + i + PropertiesHandler.getProp("sim.extension");
+      String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfProcessFile") + i + PropertiesHandler.getProp("sim.extension");
       GenerateData.generateProcessesSourceFile(pathToSourceFile);
     }
 

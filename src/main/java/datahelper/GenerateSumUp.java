@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class GenerateSumUp {
     /**
-     * Stores name of the algorithm with its average waiting and processing times
+     * Stores name of the algorithm with its average waiting, amount of page faults and processing times
      */
     protected Map<String, Triple<Double, Double, Double>> algorithmTimesMap = null;
 
@@ -22,7 +22,6 @@ public class GenerateSumUp {
      */
     public GenerateSumUp()
     {
-
         algorithmTimesMap = new HashMap<String, Triple<Double, Double, Double> >();
         Triple<Double, Double, Double> triple = Triple.of((double) 0, (double)0, (double)0);
         algorithmTimesMap.put("FCFS", triple);

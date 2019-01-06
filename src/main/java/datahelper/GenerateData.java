@@ -22,7 +22,7 @@ public class GenerateData {
   /**
    * Checks if user wants data to be generated and if specified path is proper.
    * <pre>
-   *     Method uses predefined field from <a href="file:simulation.properties"><b>simulation.properties</b></a>
+   *     Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
    * </pre>
    */
   public static void generateProcessesSourceFile(String filePath) {
@@ -68,7 +68,7 @@ public class GenerateData {
   /**
    * Checks if user wants data to be generated and if specified path is proper.
    * <pre>
-   *     Method uses predefined field from <a href="file:simulation.properties"><b>simulation.properties</b></a>
+   *     Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
    * </pre>
    */
   public static void generatePagesSourceFile(String filePath) {

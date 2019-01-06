@@ -47,9 +47,15 @@ public class LRU extends BasePagingAlgorithm{
         setPageFaults(amntPageFault);
     }
 
+    /**
+     * Implements method from super class.
+     *
+     * <p>
+     *     Method loops through all pages in reference list {@link #referenceList} and increments page faults {@link #amntPageFault} every time that it's representing frame is not present in memory {@link #memoryQueue}.
+     * </p>
+     */
     @Override
     protected void executePages() {
-        boolean isFault = false;
         int memoryListIndex = 0;
         amntPageFault = 0;
 
@@ -60,19 +66,19 @@ public class LRU extends BasePagingAlgorithm{
                 amntPageFault++;
                 memoryQueue[memoryListIndex]=referenceList.get(i);
                 memoryQueue[memoryListIndex].setAgeOfFrame(memoryQueue[memoryListIndex].getAgeOfFrame()+1);
-                memoryQueue=setOtherAge(memoryListIndex, memoryQueue);
+                memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
             }else if(!temp.contains(referenceList.get(i))){
                 amntPageFault++;
-                memoryListIndex=getLeastRecentlyUsed(memoryQueue);
+                memoryListIndex=getLeastRecentlyUsed(memoryQueue, avaibleFramesInMemory);
                 memoryQueue[memoryListIndex]=referenceList.get(i);
                 memoryQueue[memoryListIndex].setAgeOfFrame(1);
-                memoryQueue=setOtherAge(memoryListIndex, memoryQueue);
+                memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
             }else if(temp.contains(referenceList.get(i))){
                 memoryListIndex = getIndexInArray(memoryQueue, referenceList.get(i));
                 memoryQueue[memoryListIndex].setAgeOfFrame(memoryQueue[memoryListIndex].getAgeOfFrame()+1);
-                memoryQueue=setOtherAge(memoryListIndex, memoryQueue);
+                memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
 
             }
@@ -81,28 +87,5 @@ public class LRU extends BasePagingAlgorithm{
                 memoryListIndex=0;
             }
         }
-    }
-
-    private Frame[] setOtherAge(int memoryListIndex, Frame[] memoryQueue) {
-        for(int i=0; i<memoryQueue.length; i++){
-            if(i==memoryListIndex || memoryQueue[i]==null)
-                continue;
-            else{
-                memoryQueue[i].setAgeOfFrame(memoryQueue[i].getAgeOfFrame()+1);
-            }
-        }
-        return memoryQueue;
-    }
-
-    private int getLeastRecentlyUsed(Frame[] array){
-        int i = 0;
-        int oldest = 0;
-        for(i=0; i<avaibleFramesInMemory;i++){
-            if(array[i]!=null && array[i].getAgeOfFrame()>array[oldest].getAgeOfFrame()){
-                oldest=i;
-                break;
-            }
-        }
-        return oldest;
     }
 }

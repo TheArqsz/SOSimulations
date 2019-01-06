@@ -1,6 +1,5 @@
-propertieshandler
-reporthandler
-scheduling
-scheduling.algorithms
 datahelper
-scheduling.processes
+paging
+paging.algorithms
+paging.frames
+propertieshandler

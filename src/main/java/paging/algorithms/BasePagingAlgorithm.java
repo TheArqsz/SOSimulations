@@ -29,7 +29,7 @@ public abstract class BasePagingAlgorithm {
     List<Frame> referenceList= null;
 
     /**
-     * <p>Path to source file in which processes are stored</p>
+     * <p>Path to source file in which pages are stored</p>
      */
     String pathToSourceFile;
 
@@ -44,7 +44,7 @@ public abstract class BasePagingAlgorithm {
     int avaibleFramesInMemory;
 
     /**
-     * <p>Amount of tries.</p>
+     * <p>Amount of tries of simulation.</p>
      */
     int tries;
 
@@ -59,8 +59,9 @@ public abstract class BasePagingAlgorithm {
     protected abstract void executePages();
 
     /**
-     *
-     * Creates pages using data from file "pages*.csv" and put them to reference list
+     *<p>
+     * Creates pages using data from file "pages*.csv" and put them to reference list.
+     *</p>
      *
      * <p>
      *     Method reads each line of specified file under {@link #pathToSourceFile} and puts it into {@link #referenceList}.<br>
@@ -97,7 +98,6 @@ public abstract class BasePagingAlgorithm {
 
         }
         */
-
     }
 
     /**
@@ -108,6 +108,12 @@ public abstract class BasePagingAlgorithm {
         return this.amntPageFault;
     }
 
+    /**
+     * Gets index of specified Frame from {@link #memoryQueue}
+     * @param array {@link #memoryQueue}
+     * @param frame specified frame
+     * @return index of frame in {@link #memoryQueue}
+     */
     public int getIndexInArray(Frame[] array, Frame frame){
         int i=0;
         for(i=0; i<avaibleFramesInMemory;i++){
@@ -116,6 +122,42 @@ public abstract class BasePagingAlgorithm {
             }
         }
         return i;
+    }
+
+
+    /**
+     * Sets age of elements in memory array on indexes that are not equal to given one.
+     * @param memoryListIndex index of element that we don't want to be changed
+     * @param memoryQueue   array of frames in memory
+     * @return  fixed array of frames in memory
+     */
+    protected Frame[] setOthersAge(int memoryListIndex, Frame[] memoryQueue) {
+        for(int i=0; i<memoryQueue.length; i++){
+            if(i==memoryListIndex || memoryQueue[i]==null)
+                continue;
+            else{
+                memoryQueue[i].setAgeOfFrame(memoryQueue[i].getAgeOfFrame()+1);
+            }
+        }
+        return memoryQueue;
+    }
+
+    /**
+     * Gets index of element which was least recently used
+     * @param array array of frames in memory
+     * @param size size of array
+     * @return  index of element that was leas recently used
+     */
+    protected int getLeastRecentlyUsed(Frame[] array, int size){
+        int i = 0;
+        int oldest = 0;
+        for(i=0; i<size;i++){
+            if(array[i]!=null && array[i].getAgeOfFrame()>array[oldest].getAgeOfFrame()){
+                oldest=i;
+                break;
+            }
+        }
+        return oldest;
     }
 
 }

@@ -11,10 +11,11 @@ import java.util.Properties;
  */
 public class PropertiesHandler {
   /**
-   * <pre>
-   *     Gets data from specified property's name. Properties are stored under fields named "simulation.NAME" where
-   *     NAME is different for each property.
-   * </pre>
+   * Gets data from specified property's name.
+   * <p>
+   *  Properties are stored under fields named "simulation.NAME" where
+   *  NAME is different for each property.
+   *
    *
    * @param property name of property from where the method gets data
    * @return the data under specified property
