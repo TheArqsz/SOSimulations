@@ -154,7 +154,7 @@ public abstract class BasePagingAlgorithm {
         for(i=0; i<size;i++){
             if(array[i]!=null && array[i].getAgeOfFrame()>array[oldest].getAgeOfFrame()){
                 oldest=i;
-                break;
+                //break;
             }
         }
         return oldest;

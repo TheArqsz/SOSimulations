@@ -17,6 +17,7 @@ public class LFU extends BasePagingAlgorithm{
     /**
      * The constructor for LRU class.
      * @param pathToSourceFile  specifies path to source file
+     * @param avaibleFramesInMemory amount of frames in memory queue
      * @param isUnderTest       is set to true if method is used in tests. As default it is false.
      *
      */
@@ -28,7 +29,9 @@ public class LFU extends BasePagingAlgorithm{
         this.memoryQueue=new Frame[avaibleFramesInMemory];
         referenceList=new ArrayList<>();
 
-        startProcessing();
+        if(!isTest) {
+            startProcessing();
+        }
     }
 
     /**
@@ -102,6 +105,7 @@ public class LFU extends BasePagingAlgorithm{
      *  At the end it loops through all elements to get oldest one with specified minimum amount of uses.
      *
      * @param array array of Frames in memory
+     * @return index of least frequently used item
      */
     protected int getLeastFrequentlyUsed(Frame[] array){
 

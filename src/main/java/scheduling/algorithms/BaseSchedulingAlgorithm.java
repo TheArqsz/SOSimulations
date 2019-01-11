@@ -79,11 +79,11 @@ public abstract class BaseSchedulingAlgorithm {
      *  Calculates average waiting and processing time for specific algorithm.
      *
      *
-     *  <pre>
-     *      At the beginning, average waiting time {@link #avgAwaitTime} of processes is set to 0.
-     *      Then, every waiting time of process from {@link #readyQueue} is added to {@link #avgAwaitTime}.
-     *      At the end, {@link #avgAwaitTime} is divided by amount of processes  {@link #amnt} to get final average waiting time of processes.
-     *  </pre>
+     *  <p>
+     *  At the beginning, average waiting time {@link #avgAwaitTime} of processes is set to 0.
+     *  Then, every waiting time of process from {@link #readyQueue} is added to {@link #avgAwaitTime}.
+     *  At the end, {@link #avgAwaitTime} is divided by amount of processes  {@link #amnt} to get final average waiting time of processes.
+     *
      *
      *  @param nameOfAlgorithm is equal to name of algorithm
      *  @param isUnderTest is set to true if method is used in tests. As default it is false.

@@ -17,6 +17,7 @@ public class LRU extends BasePagingAlgorithm{
     /**
      * The constructor for LRU class.
      * @param pathToSourceFile  specifies path to source file
+     * @param avaibleFramesInMemory amount of frames in memory queue
      * @param isUnderTest       is set to true if method is used in tests. As default it is false.
      *
      */
@@ -28,7 +29,9 @@ public class LRU extends BasePagingAlgorithm{
         this.memoryQueue=new Frame[avaibleFramesInMemory];
         referenceList=new ArrayList<>();
 
-        startProcessing();
+        if(!isTest) {
+            startProcessing();
+        }
     }
 
     /**

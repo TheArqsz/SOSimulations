@@ -21,9 +21,10 @@ public class GenerateData {
 
   /**
    * Checks if user wants data to be generated and if specified path is proper.
-   * <pre>
-   *     Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
-   * </pre>
+   * <p>
+   * Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
+   *
+   * @param filePath path to source files location
    */
   public static void generateProcessesSourceFile(String filePath) {
     if(Boolean.parseBoolean(PropertiesHandler.getProp("sim.generateData"))){
@@ -46,6 +47,7 @@ public class GenerateData {
 
   /**
    * Generates source files using parameters.
+   *
    * @param amnt amount of processes specified in properties file
    * @param filePath path to source file
    *
@@ -67,17 +69,16 @@ public class GenerateData {
 
   /**
    * Checks if user wants data to be generated and if specified path is proper.
-   * <pre>
-   *     Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
-   * </pre>
+   * <p>
+   * Method uses predefined field from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>
+   *
+   * @param filePath path to source files location
    */
   public static void generatePagesSourceFile(String filePath) {
     if(Boolean.parseBoolean(PropertiesHandler.getProp("sim.generateData"))){
-      //System.out.println("Generating data source file to: \"" +filePath + "\"");
       int amnt = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfPages"));
       generatePagesData(amnt, filePath);
     }else{
-      //System.out.println("Using existing file located in \"" + filePath +  "\"") ;
       try{
         Reader f = Files.newBufferedReader(Paths.get(filePath));
         f.close();
@@ -92,6 +93,7 @@ public class GenerateData {
 
   /**
    * Generates source files using parameters.
+   *
    * @param amnt amount of pages specified in properties file
    * @param filePath path to source file
    *
@@ -113,6 +115,7 @@ public class GenerateData {
 
   /**
    * Converts String array to Double array
+   *
    * @param strings array that contains String values to be converted to Double
    * @return array that contains Double values converted from String
    */
@@ -128,6 +131,7 @@ public class GenerateData {
 
   /**
    * Converts String array to Integer array
+   *
    * @param strings array that contains String values to be converted to Integer
    * @return array that contains Integer values converted from String
    */

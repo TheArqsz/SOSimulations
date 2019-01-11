@@ -57,7 +57,7 @@ public class FCFSTest extends BaseAlgorithmTest{
      */
     @Test
     public void createProcessesTest() {
-        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
+        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfProcessFile") + 1 + PropertiesHandler.getProp("sim.extension");
         FCFS fcfs = new FCFS(pathToSourceFile, true);
         fcfs.createProcesses();
         assertTrue("Process creation finish unproperly" ,fcfs.amnt==fcfs.waitingQueue.size());

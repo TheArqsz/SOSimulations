@@ -54,6 +54,8 @@ public abstract class BaseAlgorithmTest {
      * <p>
      * Creates temporary source file.
      * @see <a href="https://junit.org/junit4/javadoc/4.12/org/junit/Before.html">Before (JUNIT 4)</a>
+     *
+     * @throws IOException
      */
     @Before
     public void createTempSourceFile() throws IOException {

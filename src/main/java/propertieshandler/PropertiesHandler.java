@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Class that allows to get data from <a href="file:../simulation.properties"><b>simulation.properties</b></a> file
+ * Class that allows to get data from <a href="file:../simulationproperties.html"><b>simulation.properties</b></a> file
  * @author Arkadiusz Maruszczak
  *
  */

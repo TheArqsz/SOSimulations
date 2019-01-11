@@ -58,7 +58,7 @@ public class LCFSTest extends BaseAlgorithmTest{
      */
     @Test
     public void createProcessesTest() {
-        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfFile") + 1 + PropertiesHandler.getProp("sim.extension");
+        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData")+ PropertiesHandler.getProp("sim.baseNameOfProcessFile") + 1 + PropertiesHandler.getProp("sim.extension");
         LCFS lcfs = new LCFS(pathToSourceFile, true);
         lcfs.createProcesses();
         assertTrue("Process creation finish unproperly" ,lcfs.amnt==lcfs.waitingQueue.size());

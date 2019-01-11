@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
 public class RoundRobinTest extends BaseAlgorithmTest{
 
     /**
-     * Test for constructor {@link RoundRobinFCFS#RoundRobinFCFS(String, double, boolean...)}
+     * Test for constructor {@link RoundRobinFCFS#RoundRobinFCFS(String, double, boolean...)} and {@link RoundRobinLCFS#RoundRobinLCFS(String, double, boolean...)}
      */
     @Test
     public void constructorTest(){
@@ -64,34 +64,34 @@ public class RoundRobinTest extends BaseAlgorithmTest{
     }
 
     /**
-     * Test for method {@link RoundRobinFCFS#executeProcesses()}
+     * Test for method {@link RoundRobinFCFS#executeProcesses()} and {@link RoundRobinLCFS#executeProcesses()}
      */
     @Test
     public void executeProcessesTest() {
-        RoundRobinFCFS rr = null;
-
+        RoundRobinFCFS rrF = null;
+        RoundRobinLCFS rrL = null;
         try {
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            rr = new RoundRobinFCFS(pathToSourceFile, 0.5, true);
-            rr.createProcesses();
-            rr.executeProcessesFCFS();
+            rrF = new RoundRobinFCFS(pathToSourceFile, 0.5, true);
+            rrF.createProcesses();
+            rrF.executeProcessesFCFS();
             reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
+        assertTrue("Process execution finish unproperly" ,amnt==rrF.readyQueue.size());
         try {
             Reader reader = Files.newBufferedReader(Paths.get(pathToSourceFile));
 
-            rr = new RoundRobinFCFS(pathToSourceFile, 0.5, true);
-            rr.createProcesses();
-            rr.executeProcessesFCFS();
+            rrL = new RoundRobinLCFS(pathToSourceFile, 0.5, true);
+            rrL.createProcesses();
+            rrL.executeProcessesLCFS();
             reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        assertTrue("Process execution finish unproperly" ,amnt==rr.readyQueue.size());
+        assertTrue("Process execution finish unproperly" ,amnt==rrL.readyQueue.size());
     }
 
     /**

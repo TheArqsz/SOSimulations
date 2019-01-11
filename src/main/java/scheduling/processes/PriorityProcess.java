@@ -2,7 +2,7 @@ package scheduling.processes;
 
 /**
  * @author Arkadiusz Maruszczak
- * @deprecated This class is can be used if processes contains priorities
+ * @deprecated This class can be used if processes contains priorities
  */
 public class PriorityProcess extends BaseProcess {
 
@@ -23,6 +23,10 @@ public class PriorityProcess extends BaseProcess {
 
   /**
    * The constructor.
+   *
+   * @param id
+   * @param burstTime
+   * @param priority
    */
   public PriorityProcess(int id, double burstTime, int priority) {
 
@@ -32,6 +36,11 @@ public class PriorityProcess extends BaseProcess {
   }
   /**
    * The constructor.
+   *
+   * @param id
+   * @param priority
+   * @param burstTime
+   * @param awaitTime
    */
   public PriorityProcess(int id, double burstTime, int priority, double awaitTime) {
 
