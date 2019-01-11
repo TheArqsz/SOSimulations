@@ -69,7 +69,7 @@ public class SchedulingMain {
         /**
          *  Path to each source file that contains process id and burst time
          */
-        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfFile") + i + PropertiesHandler.getProp("sim.extension");
+        String pathToSourceFile = PropertiesHandler.getProp("sim.pathToProcessesData") + PropertiesHandler.getProp("sim.baseNameOfProcessFile") + i + PropertiesHandler.getProp("sim.extension");
 
         //System.out.println("START RUN NUMBER " + i);
         startFCFS(pathToSourceFile);
