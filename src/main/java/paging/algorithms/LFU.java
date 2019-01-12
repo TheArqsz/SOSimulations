@@ -70,8 +70,7 @@ public class LFU extends BasePagingAlgorithm{
             if(memoryQueue[memoryListIndex]==null && !temp.contains(referenceList.get(i))){
                 amntPageFault++;
                 memoryQueue[memoryListIndex]=referenceList.get(i);
-                memoryQueue[memoryListIndex].setAgeOfFrame(memoryQueue[memoryListIndex].getAgeOfFrame()+1);
-                memoryQueue[memoryListIndex].setAmountOfUses(memoryQueue[memoryListIndex].getAmountOfUses()+1);
+                memoryQueue[memoryListIndex].setAmountOfUses(1);
                 memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
             }else if(!temp.contains(referenceList.get(i))){
@@ -79,6 +78,7 @@ public class LFU extends BasePagingAlgorithm{
                 memoryListIndex=getLeastFrequentlyUsed(memoryQueue);
                 memoryQueue[memoryListIndex]=referenceList.get(i);
                 memoryQueue[memoryListIndex].setAmountOfUses(1);
+                memoryQueue[memoryListIndex].setAgeOfFrame(1);
                 memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
             }else if(temp.contains(referenceList.get(i))){

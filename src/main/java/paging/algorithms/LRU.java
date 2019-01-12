@@ -68,7 +68,7 @@ public class LRU extends BasePagingAlgorithm{
             if(memoryQueue[memoryListIndex]==null && !temp.contains(referenceList.get(i))){
                 amntPageFault++;
                 memoryQueue[memoryListIndex]=referenceList.get(i);
-                memoryQueue[memoryListIndex].setAgeOfFrame(memoryQueue[memoryListIndex].getAgeOfFrame()+1);
+                memoryQueue[memoryListIndex].setAgeOfFrame(1);
                 memoryQueue=setOthersAge(memoryListIndex, memoryQueue);
                 memoryListIndex++;
             }else if(!temp.contains(referenceList.get(i))){

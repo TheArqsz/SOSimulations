@@ -1,5 +1,8 @@
 package datahelper;
 
+import com.opencsv.CSVWriter;
+import propertieshandler.PropertiesHandler;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,10 +10,6 @@ import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Random;
-
-import com.opencsv.CSVWriter;
-
-import propertieshandler.PropertiesHandler;
 
 /**
  * Class that allows to generate source files necessary for simulation
@@ -104,7 +103,7 @@ public class GenerateData {
       CSVWriter writer = new CSVWriter(new FileWriter(new File(filePath)));
       Random r = new Random();
       for (int i = 0; i < Integer.parseInt(PropertiesHandler.getProp("sim.lengthOfReferenceList")); i++) {
-        String[] data = {Integer.toString(r.nextInt(amnt))+1 };
+        String[] data = {Integer.toString(r.nextInt(amnt)+1) };
         writer.writeNext(data);
       }
       writer.close();
