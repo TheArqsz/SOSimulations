@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPRAWOZDANIE_PROCESY.docx" beforeDir="false" afterPath="$PROJECT_DIR$/SPRAWOZDANIE_PROCESY.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schedulingSummary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schedulingSummary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,24 +35,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/FCFS.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -130,7 +116,6 @@
         <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/BasePagingAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" />
@@ -163,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinFCFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/RoundRobinLCFS.java" />
         <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
       </list>
     </option>
   </component>
@@ -193,7 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,38 +211,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduling" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduling" type="462c0819:PsiDirectoryNode" />
-              <item name="processes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="propertieshandler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,7 +432,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140431000" />
+    <option name="totallyTimeSpent" value="140556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,10 +444,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-62" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,7 +456,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" x="328" y="351" width="621" height="284" id="Run" maximized="true" order="2" sideWeight="0.7114583" side_tool="true" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" x="328" y="351" width="621" height="284" id="Run" maximized="true" order="2" sideWeight="0.50107414" side_tool="true" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49583334" visible="true" weight="0.4021164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/package.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -817,12 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv" />
     <entry file="file://$PROJECT_DIR$/javadoc/pagingSummary.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -830,16 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/SchedulingMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -864,25 +804,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/processes1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schedulingSummary.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/SocketInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/processes1.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schedulingSummary.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/LCFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -935,6 +859,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
         </state>
       </provider>
     </entry>
