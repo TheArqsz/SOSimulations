@@ -84,11 +84,11 @@ public class SchedulingMain {
       System.out.println("Amount of tries: " + tries);
       System.out.println("Used value of time quantum: " + timeQuantums[x]);
       System.out.println("\n\nFCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("FCFS") / tries, 3) + " avg process. time: " + Precision.round
-              (avgTimes.getAvgProccessingTimeSum("FCFS") / tries, 3) + "[time unit]");
-      System.out.println("LCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("LCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("LCFS") / tries, 3) + "[time unit]");
-      System.out.println("SJF: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("SJF") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("SJF") / tries, 3) + "[time unit]");
-      System.out.println("RoundRobin FCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin FCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin FCFS") / tries, 3) + "[time unit]");
-      System.out.println("RoundRobin LCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin LCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin LCFS") / tries, 3) + "[time unit]");
+              (avgTimes.getAvgProccessingTimeSum("FCFS") / tries, 3) + "[sec]");
+      System.out.println("LCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("LCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("LCFS") / tries, 3) + "[sec]");
+      System.out.println("SJF: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("SJF") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("SJF") / tries, 3) + "[sec]");
+      System.out.println("RoundRobin FCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin FCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin FCFS") / tries, 3) + "[sec]");
+      System.out.println("RoundRobin LCFS: avg await time: " + Precision.round(avgTimes.getAvgAwaitTimeSum("RoundRobin LCFS") / tries, 3) + " avg process. time: " + Precision.round(avgTimes.getAvgProccessingTimeSum("RoundRobin LCFS") / tries, 3) + "[sec]");
     }
     generateSummary(results, amnt, tries);
   }
@@ -165,7 +165,7 @@ public class SchedulingMain {
             Double[] timeQuantums = GenerateData.processArrayToDbl(PropertiesHandler.getProp("sim.timeQuantumRR").split(","));
 
             {
-                String[] header = {"Time Quantum", "Algorithm", "Amount of processes", "Average processing time", "Average waiting time"};
+                String[] header = {"Time Quantum", "Algorithm", "Amount of processes", "Average processing time [s]", "Average waiting time [s]"};
                 writer.writeNext(header);
             }
 
