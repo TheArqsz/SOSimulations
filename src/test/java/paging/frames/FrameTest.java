@@ -2,8 +2,13 @@ package paging.frames;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+/**
+ * Test class for {@link Frame} class
+ * @author Arkadiusz Maruszczak
+ *
+ */
 public class FrameTest {
     /**
      * Test for constructor {@link Frame#Frame()}

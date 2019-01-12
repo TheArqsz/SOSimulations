@@ -5,304 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Documentation/pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/pagingSummary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/processes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/schedulingSummary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/simulationproperties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/pagingSummary.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages100.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages11.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages12.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages13.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages14.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages15.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages16.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages17.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages18.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages19.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages21.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages22.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages23.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages24.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages25.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages26.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages27.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages28.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages29.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages30.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages31.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages32.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages33.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages34.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages35.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages36.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages37.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages38.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages39.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages40.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages41.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages42.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages43.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages44.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages45.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages46.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages47.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages48.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages49.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages5.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages50.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages51.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages52.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages53.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages54.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages55.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages56.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages57.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages58.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages59.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages60.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages61.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages62.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages63.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages64.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages65.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages66.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages67.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages68.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages69.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages7.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages70.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages71.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages72.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages73.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages74.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages75.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages76.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages77.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages78.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages79.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages8.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages80.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages81.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages82.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages83.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages84.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages85.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages86.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages87.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages88.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages89.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages9.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages90.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages91.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages92.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages93.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages94.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages95.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages96.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages97.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages98.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestData/pages99.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.docx" beforeDir="false" afterPath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/datahelper/GenerateData.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/datahelper/GenerateSumUp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/datahelper/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/datahelper/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/datahelper/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/pages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/PagingMain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/BasePagingAlgorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/LFU.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/LRU.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/algorithms/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/frames/BaseFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/frames/Frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/frames/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/frames/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/frames/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/paging/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/pagingSummary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/processes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/propertieshandler/PropertiesHandler.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/propertieshandler/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/propertieshandler/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/propertieshandler/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/BaseAlgorithmTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/BaseSchedulingAlgorithm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/FCFS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/FCFSTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/LCFS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/LCFSTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/RoundRobinFCFS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/RoundRobinLCFS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/RoundRobinTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/SJF.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/SJFTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/algorithms/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/BaseProcess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/BaseProcessTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/PriorityProcess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/Process.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/ProcessTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/scheduling/processes/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/schedulingSummary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/simulation.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/simulationproperties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadocPaging/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages11.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages12.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages13.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages13.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages14.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages14.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages15.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages16.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages16.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages17.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages18.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages19.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages21.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages22.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages22.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages23.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages23.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages24.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages24.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages25.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages25.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages26.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages26.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages27.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages27.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages28.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages28.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages29.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages31.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages31.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages32.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages33.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages33.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages34.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages34.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages35.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages35.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages36.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages36.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages37.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages37.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages38.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages38.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages39.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages39.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages40.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages41.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages41.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages42.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages42.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages43.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages43.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages44.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages44.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages45.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages45.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages46.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages46.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages47.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages47.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages48.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages48.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages49.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages49.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages51.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages51.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages52.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages52.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages53.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages53.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages54.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages54.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages55.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages55.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages56.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages56.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages57.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages57.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages58.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages58.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages59.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages59.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages60.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages60.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages61.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages61.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages62.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages62.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages63.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages63.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages64.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages64.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages65.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages65.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages66.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages66.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages67.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages67.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages68.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages69.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages70.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages70.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages71.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages71.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages72.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages72.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages73.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages73.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages74.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages74.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages75.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages75.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages76.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages76.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages77.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages77.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages78.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages78.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages79.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages79.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages80.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages80.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages81.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages81.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages82.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages82.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages83.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages83.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages84.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages84.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages85.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages85.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages86.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages86.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages87.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages87.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages88.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages88.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages89.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages89.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages90.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages90.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages91.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages91.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages92.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages92.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages93.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages93.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages94.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages94.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages95.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages95.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages96.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages96.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages97.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages97.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages98.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages98.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages99.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages99.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pagingSummary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pagingSummary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -332,12 +37,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state relative-caret-position="1344">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
+            <state relative-caret-position="398">
+              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -358,54 +72,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java">
+        <entry file="file://$PROJECT_DIR$/javadoc/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/package.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+            <state relative-caret-position="105">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pagingSummary.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/package.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="120" selection-start-line="2" selection-start-column="120" selection-end-line="2" selection-end-column="120" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="42">
               <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="60" column="145" lean-forward="true" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
+            <state relative-caret-position="147">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -414,24 +116,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="104" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/package.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="121" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="121" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/javadoc/pages.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -505,7 +200,6 @@
         <option value="$PROJECT_DIR$/javadocScheduling/simulation.properties" />
         <option value="$PROJECT_DIR$/javadocScheduling/simulationproperties.html" />
         <option value="$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/BasePagingAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" />
@@ -514,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/LFUTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/LRUTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/BasePagingAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scheduling/algorithms/BaseAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/Main.java" />
@@ -538,6 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" />
         <option value="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
+        <option value="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" />
       </list>
     </option>
   </component>
@@ -573,18 +268,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name=".settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -609,6 +299,31 @@
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paging" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="propertieshandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -617,11 +332,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="paging" type="462c0819:PsiDirectoryNode" />
+              <item name="frames" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -828,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151303000" />
+    <option name="totallyTimeSpent" value="151493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,9 +579,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-62" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -851,17 +591,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7114583" side_tool="true" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72717506" side_tool="true" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49453124" weight="0.6074241" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.28854167" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.28854167" weight="0.32910052" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021482" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49676377" weight="0.32756633" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.2734375" weight="0.3318335" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.2728249" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4384181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1129,24 +869,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/processes/BaseProcessTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/processes/ProcessTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/datahelper/GenerateSumUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1113">
@@ -1182,16 +905,8 @@
     <entry file="file://$PROJECT_DIR$/javadocWhole/schedulingSummary.html" />
     <entry file="file://$PROJECT_DIR$/javadocWhole/pagingSummary.html" />
     <entry file="file://$PROJECT_DIR$/javadocScheduling/pagingSummary.html" />
-    <entry file="file://$PROJECT_DIR$/javadocPaging/pagingSummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javadocPaging/pagingSummary.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1206,22 +921,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="323">
-          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/PagingMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1232,19 +933,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/processes1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/SocketInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/processes1.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1264,24 +954,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/package.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        <state relative-caret-position="42">
+          <caret line="2" column="120" selection-start-line="2" selection-start-column="120" selection-end-line="2" selection-end-column="120" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pagingSummary.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1302,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
+        <state relative-caret-position="398">
+          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1312,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+        <state relative-caret-position="1344">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1322,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="42">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1331,6 +1010,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="60" column="145" lean-forward="true" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
