@@ -42,9 +42,9 @@ public class PagingMain {
          */
         int tries = Integer.parseInt(PropertiesHandler.getProp("sim.amountOfTries"));
         /**
-         * Array that stores all avaible frames for simulations
+         * Array that stores all available frames for simulations
          */
-        Integer[] avaiblePhysicalMemoryFrames = GenerateData.processArrayToInt(PropertiesHandler.getProp("sim.avaiblePhysicalMemoryFrames").split(","));
+        Integer[] availablePhysicalMemoryFrames = GenerateData.processArrayToInt(PropertiesHandler.getProp("sim.availablePhysicalMemoryFrames").split(","));
 
         HashMap<Integer, GenerateSumUp> results = new HashMap<>();
 
@@ -60,7 +60,7 @@ public class PagingMain {
         /**
          *  Main loop for simulation
          */
-        for(int x=0;x<avaiblePhysicalMemoryFrames.length;x++) {
+        for(int x=0;x<availablePhysicalMemoryFrames.length;x++) {
 
             avgFaults = new GenerateSumUp();
 
@@ -74,15 +74,15 @@ public class PagingMain {
                 String pathToSourceFile = PropertiesHandler.getProp("sim.pathToPagesData") + PropertiesHandler.getProp("sim.baseNameOfPageFile") + i + PropertiesHandler.getProp("sim.extension");
 
                 //System.out.println("START RUN NUMBER " + i);
-                startLRU(pathToSourceFile, avaiblePhysicalMemoryFrames[x]);
-                startLFU(pathToSourceFile, avaiblePhysicalMemoryFrames[x]);
+                startLRU(pathToSourceFile, availablePhysicalMemoryFrames[x]);
+                startLFU(pathToSourceFile, availablePhysicalMemoryFrames[x]);
                 //System.out.println("END");
             }
 
-            results.put(avaiblePhysicalMemoryFrames[x], avgFaults);
+            results.put(availablePhysicalMemoryFrames[x], avgFaults);
             System.out.println("\nAmount of pages: " + amnt);
             System.out.println("Amount of tries: " + tries);
-            System.out.println("Used value of avaible frames in physical memory: " + avaiblePhysicalMemoryFrames[x]);
+            System.out.println("Used value of available frames in physical memory: " + availablePhysicalMemoryFrames[x]);
             System.out.println("\n\nLRU: avg amount of page faults : " + Precision.round(avgFaults.getAvgAmountOfFaultsSum("LRU") / tries, 3) );
             System.out.println("LFU: avg amount of page faults : " + Precision.round(avgFaults.getAvgAmountOfFaultsSum("LFU") / tries, 3) );
         }
@@ -94,11 +94,11 @@ public class PagingMain {
     /**
      *  <p>Starts the LRU paging algorithm</p>
      * @param pathToSourceFile  specifies path to source files
-     * @param avaiblePhysicalMemoryFrames amount of frames in memory queue
+     * @param availablePhysicalMemoryFrames amount of frames in memory queue
      */
-    private static void startLRU(String pathToSourceFile, int avaiblePhysicalMemoryFrames) {
+    private static void startLRU(String pathToSourceFile, int availablePhysicalMemoryFrames) {
 
-        LRU lru = new LRU(pathToSourceFile, avaiblePhysicalMemoryFrames, false);
+        LRU lru = new LRU(pathToSourceFile, availablePhysicalMemoryFrames, false);
         avgFaults.setAvgAmountOfFaultsSum(avgFaults.getAvgAmountOfFaultsSum("LRU") + lru.getPageFault(), "LRU");
 
     }
@@ -106,11 +106,11 @@ public class PagingMain {
     /**
      * <p>Starts the LFU paging algorithm</p>
      *  @param pathToSourceFile   specifies path to source files
-     *  @param avaiblePhysicalMemoryFrames amount of frames in memory queue
+     *  @param availablePhysicalMemoryFrames amount of frames in memory queue
      */
-    private static void startLFU(String pathToSourceFile, int avaiblePhysicalMemoryFrames) {
+    private static void startLFU(String pathToSourceFile, int availablePhysicalMemoryFrames) {
 
-        LFU lfu = new LFU(pathToSourceFile, avaiblePhysicalMemoryFrames);
+        LFU lfu = new LFU(pathToSourceFile, availablePhysicalMemoryFrames);
         avgFaults.setAvgAmountOfFaultsSum(avgFaults.getAvgAmountOfFaultsSum("LFU") + lfu.getPageFault(), "LFU");
 
     }
@@ -118,7 +118,7 @@ public class PagingMain {
     /**
      * Generates summary from previously created sumUp objects {@link #avgFaults}
      *
-     * @param results map of sumUp objects with avaible frames in memory for each.
+     * @param results map of sumUp objects with available frames in memory for each.
      * @param amountOfPages amount of pages specified in <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>.
      * @param tries amount of tries for simulation specified in <a href="file:../simulationproperties.html"><b>simulation.properties</b></a>.
      */
@@ -128,20 +128,20 @@ public class PagingMain {
             CSVWriter writer = new CSVWriter(new FileWriter(new File(destinationPath)));
 
             /**
-             * Array that stores all avaible frames for simulations
+             * Array that stores all available frames for simulations
              */
-            Integer[] avaiblePhysicalMemoryFrames = GenerateData.processArrayToInt(PropertiesHandler.getProp("sim.avaiblePhysicalMemoryFrames").split(","));
+            Integer[] availablePhysicalMemoryFrames = GenerateData.processArrayToInt(PropertiesHandler.getProp("sim.availablePhysicalMemoryFrames").split(","));
             {
-                String[] header = {"Avaible frames in physical memory", "Algorithm", "Amount of pages", "Average amount of page faults"};
+                String[] header = {"Available frames in physical memory", "Algorithm", "Amount of pages", "Average amount of page faults"};
                 writer.writeNext(header);
             }
 
-            for(int i=0; i<avaiblePhysicalMemoryFrames.length;i++) {
+            for(int i=0; i<availablePhysicalMemoryFrames.length;i++) {
 
                 String[] algorithmNames = {"LRU", "LFU"};
                 for (String algorithmName: algorithmNames) {
-                    double avgAmountOfFaults = Precision.round(results.get(avaiblePhysicalMemoryFrames[i]).getAvgAmountOfFaultsSum(algorithmName) / tries, 3);
-                    String[] data = {Integer.toString(avaiblePhysicalMemoryFrames[i]), algorithmName, Integer.toString(amountOfPages), Double.toString(avgAmountOfFaults) };
+                    double avgAmountOfFaults = Precision.round(results.get(availablePhysicalMemoryFrames[i]).getAvgAmountOfFaultsSum(algorithmName) / tries, 3);
+                    String[] data = {Integer.toString(availablePhysicalMemoryFrames[i]), algorithmName, Integer.toString(amountOfPages), Double.toString(avgAmountOfFaults) };
                     writer.writeNext(data);
 
                 }

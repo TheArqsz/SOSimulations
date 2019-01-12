@@ -3,6 +3,7 @@ package paging.algorithms;
 
 import com.opencsv.CSVReader;
 import paging.frames.Frame;
+import propertieshandler.PropertiesHandler;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -75,6 +76,8 @@ public abstract class BasePagingAlgorithm {
             CSVReader csvReader = new CSVReader(reader);
             String[] nextValues;
             while ((nextValues = csvReader.readNext()) != null) {
+                if(referenceList.size()==Integer.parseInt(PropertiesHandler.getProp("sim.lengthOfReferenceList")))
+                    break;
                 this.referenceList.add(new Frame(Integer.parseInt(nextValues[0]), 0));
             }
         } catch (IOException e) {

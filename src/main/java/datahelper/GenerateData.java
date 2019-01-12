@@ -104,7 +104,7 @@ public class GenerateData {
       CSVWriter writer = new CSVWriter(new FileWriter(new File(filePath)));
       Random r = new Random();
       for (int i = 0; i < Integer.parseInt(PropertiesHandler.getProp("sim.lengthOfReferenceList")); i++) {
-        String[] data = {Integer.toString(r.nextInt(Integer.parseInt(PropertiesHandler.getProp("sim.amountOfPages")))+1) };
+        String[] data = {Integer.toString(r.nextInt(amnt))+1 };
         writer.writeNext(data);
       }
       writer.close();

@@ -1,10 +1,10 @@
-"Avaible frames in physical memory","Algorithm","Amount of pages","Average amount of page faults"
-"3","LRU","20","85.0"
-"3","LFU","20","84.0"
+"Available frames in physical memory","Algorithm","Amount of pages","Average amount of page faults"
+"3","LRU","20","85.67"
+"3","LFU","20","85.86"
 
-"5","LRU","20","79.0"
-"5","LFU","20","78.0"
+"5","LRU","20","76.06"
+"5","LFU","20","75.72"
 
-"7","LRU","20","69.0"
-"7","LFU","20","67.0"
+"7","LRU","20","67.04"
+"7","LFU","20","66.85"
 

@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="Added new branch Paging and refactored project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/pagingSummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pagingSummary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.docx" beforeDir="false" afterPath="$PROJECT_DIR$/SPRAWOZDANIE_STRONY.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paging/PagingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/PagingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages10.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages100.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/pages11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/pages11.csv" afterDir="false" />
@@ -143,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
+            <state relative-caret-position="-1215">
               <caret line="15" column="104" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -155,50 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="72" column="115" selection-start-line="72" selection-start-column="115" selection-end-line="72" selection-end-column="115" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javadoc/pagingSummary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/PagingMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="-170">
+              <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,10 +169,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="17">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javadoc/pagingSummary.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="31" column="9" selection-start-line="31" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/paging/PagingMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,32 +207,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="323">
+              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            </state>
+          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pagingSummary.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-568">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -269,6 +252,7 @@
       <find>Process</find>
       <find>p</find>
       <find>right</find>
+      <find>avaible</find>
     </findStrings>
     <replaceStrings>
       <replace>Double</replace>
@@ -279,6 +263,7 @@
       <replace>LRU</replace>
       <replace>f</replace>
       <replace>center</replace>
+      <replace>available</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\amaruszc\Desktop\SOSimulations</dir>
@@ -317,7 +302,6 @@
         <option value="$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/datahelper/GenerateDataTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scheduling/algorithms/LCFSTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/LFUTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/algorithms/LRUTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java" />
@@ -327,8 +311,6 @@
         <option value="$PROJECT_DIR$/src/main/java/scheduling/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/paging/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/processes/PriorityProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paging/PagingMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/SchedulingMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/algorithms/BaseSchedulingAlgorithm.java" />
@@ -339,11 +321,14 @@
         <option value="$PROJECT_DIR$/javadocWhole/schedulingSummary.html" />
         <option value="$PROJECT_DIR$/javadocWhole/pagingSummary.html" />
         <option value="$PROJECT_DIR$/src/main/java/datahelper/package.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" />
         <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java" />
         <option value="$PROJECT_DIR$/javadoc/pagingSummary.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
         <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/pages1.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paging/PagingMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
       </list>
     </option>
   </component>
@@ -362,7 +347,7 @@
     <scope name="Schedulding" pattern="test:schedulding.processes..*||src:schedulding.datahelper..*||src:scheduling..*||src:schedulding.algorithms..*||src:schedulding.processes..*||src:reporthandler..*||src:propertieshandler..*||test:scheduling..*||src:datahelper..*" />
     <scope name="Paging" pattern="src:paging..*||src:datahelper..*||src:propertieshandler..*" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-44" />
     <option name="y" value="111" />
     <option name="width" value="1260" />
@@ -385,16 +370,6 @@
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name=".settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="javadoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -409,6 +384,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datahelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -434,6 +417,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -444,7 +435,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547251427408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547296286070" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -600,6 +591,7 @@
       <workItem from="1547152126433" duration="19000" />
       <workItem from="1547220165262" duration="8035000" />
       <workItem from="1547238611424" duration="191000" />
+      <workItem from="1547282979540" duration="8896000" />
     </task>
     <servers />
   </component>
@@ -636,7 +628,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137460000" />
+    <option name="totallyTimeSpent" value="146447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,10 +640,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36640626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24427083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -659,9 +650,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5046875" side_tool="true" visible="true" weight="0.32283464" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953125" weight="0.4015748" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49453124" weight="0.6074241" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
@@ -670,7 +661,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021482" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49676377" weight="0.32756633" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49676377" weight="0.32410613" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.2734375" weight="0.3318335" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4384181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -684,7 +675,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32928804" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24453124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36640626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -693,8 +684,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5046875" side_tool="true" visible="true" weight="0.4015748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953125" weight="0.4015748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5054687" side_tool="true" visible="true" weight="0.6074241" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49453124" visible="true" weight="0.6074241" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946293" weight="0.32881355" />
@@ -703,7 +694,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021482" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49676377" weight="0.32756633" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49676377" weight="0.32410613" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.2734375" weight="0.3318335" />
       <window_info anchor="bottom" id="REST Client" order="13" weight="0.4384181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -815,7 +806,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java</url>
-          <line>72</line>
+          <line>73</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -854,7 +845,6 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="referenceList.get(i)" />
-        <watch expression="referenceList.get(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -863,7 +853,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/Process.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/BaseProcess.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/processes/package.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/datahelper/GenerateDataTest.java">
@@ -875,16 +864,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/FCFS.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/algorithms/LCFSTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1017,13 +996,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/algorithms/RoundRobinTest.java" />
     <entry file="file://$PROJECT_DIR$/javadocWhole/processes.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/package.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pagingSummary.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/javadocWhole/pages.html" />
     <entry file="file://$PROJECT_DIR$/javadocWhole/schedulingSummary.html" />
     <entry file="file://$PROJECT_DIR$/javadocWhole/pagingSummary.html" />
@@ -1049,26 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="15" column="104" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="72" column="115" selection-start-line="72" selection-start-column="115" selection-end-line="72" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/package.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1076,67 +1028,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/PagingMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pagingSummary.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        <state relative-caret-position="334">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/frames/BaseFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/BasePagingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javadoc/pagingSummary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+        <state relative-caret-position="519">
+          <caret line="31" column="9" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="323">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="-170">
+          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="-568">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="15" column="104" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/pages14.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/PagingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
