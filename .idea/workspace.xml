@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317361-4c7a-4752-b93d-b426ca05fe3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,18 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1224">
@@ -58,15 +46,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/PropertiesHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -98,6 +77,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="144" selection-start-line="4" selection-start-column="144" selection-end-line="4" selection-end-column="144" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -106,14 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="850">
               <caret line="59" column="145" selection-start-line="59" selection-start-column="145" selection-end-line="59" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -192,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/paging/frames/PAge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paging/datahelper/package.html" />
         <option value="$PROJECT_DIR$/src/main/java/paging/datahelper/GenerateSumUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/paging/datahelper/GenerateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduling/datahelper/GenerateData.java" />
@@ -243,6 +238,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/simulation.properties" />
         <option value="$PROJECT_DIR$/src/main/java/propertieshandler/package.html" />
         <option value="$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -289,12 +286,20 @@
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
-              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOSimulations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simulation" type="b2602c69:ProjectViewProjectNode" />
@@ -433,13 +438,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.PagingMain" />
+      <item itemvalue="JUnit.LRUTest.executePages" />
+      <item itemvalue="JUnit.All in simulation" />
+      <item itemvalue="JUnit.FrameTest.threeArgConstructorTest" />
+      <item itemvalue="JUnit.LRUTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PagingMain" />
-        <item itemvalue="JUnit.All in simulation" />
         <item itemvalue="JUnit.LRUTest.executePages" />
         <item itemvalue="JUnit.LRUTest" />
         <item itemvalue="JUnit.FrameTest.threeArgConstructorTest" />
+        <item itemvalue="JUnit.All in simulation" />
+        <item itemvalue="Application.PagingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151493000" />
+    <option name="totallyTimeSpent" value="151590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +537,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24375" />
@@ -730,23 +742,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/datahelper/GenerateDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/algorithms/FCFSTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/scheduling/algorithms/FCFS.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/scheduling/algorithms/LCFSTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -892,6 +887,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentation/overview-summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="72" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentation/simulationproperties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/package.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -904,6 +953,30 @@
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="59" column="145" selection-start-line="59" selection-start-column="145" selection-end-line="59" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateSumUp.java">
@@ -923,64 +996,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LRU.java">
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="144" selection-start-line="4" selection-start-column="144" selection-end-line="4" selection-end-column="144" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paging/algorithms/LFU.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/simulation.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datahelper/GenerateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="59" column="145" selection-start-line="59" selection-start-column="145" selection-end-line="59" selection-end-column="145" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/propertieshandler/package.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/BaseFrameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/paging/frames/FrameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
         </state>
       </provider>
     </entry>
