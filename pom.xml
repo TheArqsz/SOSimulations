@@ -37,6 +37,7 @@
                     <mainClass>paging.PagingMain</mainClass>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 

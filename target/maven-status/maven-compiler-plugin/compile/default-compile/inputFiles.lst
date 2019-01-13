@@ -1,6 +1,9 @@
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\algorithms\FCFS.java
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\main\Main.java
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\datahelper\GenerateData.java
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\processes\BaseProcess.java
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\propertieshandler\PropertiesHandler.java
-C:\Users\amaruszc\Desktop\SOProject\src\main\java\processes\Process.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\PagingMain.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\propertieshandler\PropertiesHandler.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\frames\BaseFrame.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\algorithms\BasePagingAlgorithm.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\datahelper\GenerateData.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\frames\Frame.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\algorithms\LFU.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\paging\algorithms\LRU.java
+C:\Users\arqsz\Desktop\SOSimulations\src\main\java\datahelper\GenerateSumUp.java

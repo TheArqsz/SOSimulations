@@ -1,1 +1,8 @@
+paging\frames\BaseFrameTest.class
 propertieshandler\PropertiesHandlerTest.class
+paging\algorithms\LFUTest.class
+paging\frames\FrameTest.class
+datahelper\GenerateDataTest.class
+paging\algorithms\BasePagingAlgorithmTest.class
+paging\algorithms\LRUTest.class
+datahelper\GenerateSumUpTest.class

@@ -1,0 +1,9 @@
+paging\frames\BaseFrame.class
+paging\PagingMain.class
+datahelper\GenerateSumUp.class
+propertieshandler\PropertiesHandler.class
+paging\algorithms\LFU.class
+paging\algorithms\LRU.class
+paging\algorithms\BasePagingAlgorithm.class
+datahelper\GenerateData.class
+paging\frames\Frame.class
